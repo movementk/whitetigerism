@@ -1,5 +1,5 @@
 (function($) {
-    /* 헤더 스크롤
+    // 헤더 스크롤
     $(window).on('scroll', function() {
         if ($(this).scrollTop() > 0) {
             $('body').addClass('scrolled');
@@ -7,7 +7,6 @@
             $('body').removeClass('scrolled');
         }
     });
-    */
 
     // gnb nav
     $(document).on("click", "#header .quick-menu .btn-open-side-nav", function(e) {

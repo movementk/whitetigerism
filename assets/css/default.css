@@ -426,7 +426,15 @@ body {
   color: #fff;
   width: 100%;
   height: 45px;
-  background-color: #1e1e1e; }
+  background-color: #1e1e1e;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s; }
   #header > .logo {
     position: absolute;
     top: 50%;
@@ -438,6 +446,8 @@ body {
       display: block; }
       #header > .logo a img {
         width: 119px; }
+        #header > .logo a img.scrolled-img {
+          display: none; }
   #header .quick-menu {
     position: absolute;
     top: 50%;
@@ -530,6 +540,33 @@ body {
             background-color: #fff; }
             #header .quick-menu ul li .btn-open-side-nav:hover > .bar:nth-child(even), #header .quick-menu ul li .btn-open-side-nav:focus > .bar:nth-child(even) {
               width: 26px; } }
+
+.scrolled #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15); }
+  .scrolled #header > .logo a img.basic-img {
+    display: none; }
+  .scrolled #header > .logo a img.scrolled-img {
+    display: block; }
+  .scrolled #header .quick-menu ul li .btn-open-side-nav > .bar {
+    background-color: #666; }
+  @media (min-width: 1200px) {
+    .scrolled #header .quick-menu ul li a {
+      color: #666; }
+      .scrolled #header .quick-menu ul li a:hover {
+        color: #333; }
+    .scrolled #header .quick-menu ul li .btn-open-side-nav > .bar {
+      background-color: #666; }
+    .scrolled #header .quick-menu ul li .btn-open-side-nav:hover > .bar, .scrolled #header .quick-menu ul li .btn-open-side-nav:focus > .bar {
+      background-color: #333; }
+    .scrolled #header #nav .gnb-menu li a {
+      color: #333; }
+      .scrolled #header #nav .gnb-menu li a:hover, .scrolled #header #nav .gnb-menu li a:focus {
+        color: #999; } }
 
 #nav {
   height: 70px;
