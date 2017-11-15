@@ -1,6 +1,8 @@
-@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-@import url('https://fonts.googleapis.com/css?family=Teko:400,600,700');
+@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url('//fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('//fonts.googleapis.com/css?family=Teko:400,600,700');
+@import url('//fonts.googleapis.com/css?family=Oswald');
+@import url(//cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
 
 $xs: "320px";
 $sm: "768px";
@@ -16,12 +18,29 @@ $lg: "1200px";
 @mixin teko() {
     font-family: 'Teko', sans-serif;
 }
+@mixin oswald() {
+    font-family: 'Oswald', sans-serif;
+}
+@mixin nanumbr() {
+    font-family: 'Nanum Barun Gothic', sans-serif;
+}
 
 @mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {
 	-webkit-transition-property: $property;
     transition-property: $property;
 	-webkit-transition-duration: $duration;
     transition-duration: $duration;
+	-webkit-transition-timing-function: $timing;
+    transition-timing-function: $timing;
+	-webkit-transition-delay: $delay;
+    transition-delay: $delay;
+}
+
+@mixin trans($prop: all, $sec: .15s, $timing: linear, $delay: 0s) {
+	-webkit-transition-property: $prop;
+    transition-property: $prop;
+	-webkit-transition-duration: $sec;
+    transition-duration: $sec;
 	-webkit-transition-timing-function: $timing;
     transition-timing-function: $timing;
 	-webkit-transition-delay: $delay;

@@ -1,6 +1,8 @@
-@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-@import url("https://fonts.googleapis.com/css?family=Teko:400,600,700");
+@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+@import url("//fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("//fonts.googleapis.com/css?family=Teko:400,600,700");
+@import url("//fonts.googleapis.com/css?family=Oswald");
+@import url(//cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
