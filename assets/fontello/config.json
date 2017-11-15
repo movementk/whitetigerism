@@ -59,6 +59,24 @@
       "css": "user",
       "code": 59396,
       "src": "iconic"
+    },
+    {
+      "uid": "ab95e1351ebaec5850101097cbf7097f",
+      "css": "quote-left",
+      "code": 61709,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "715e1003368da5e5c41ae35190af68a1",
+      "css": "right-open-2",
+      "code": 59400,
+      "src": "websymbols"
+    },
+    {
+      "uid": "04960bf02134620e6c61bac8d6569502",
+      "css": "left-open-2",
+      "code": 59399,
+      "src": "websymbols"
     }
   ]
 }
