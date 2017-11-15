@@ -79,7 +79,51 @@
 			transform: scale(2.5);
 		}
 		.content {
-            
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 99;
+            opacity: 0;
+            @include transition($duration: .50s);
+            transform: scale(0);
+            -ms-transform: scale(0);
+            .txt {
+                display: table;
+                width: 100%;
+                height: 100%;
+                .vertical-box {
+                    display: table-cell;
+                    height: 100%;
+                    width: 100%;
+                    color: #fff;
+                    vertical-align: middle;
+                    text-align: center;
+                    h2 {
+                        font-size: 60px;
+                        line-height: 70px;
+                        font-weight: bold;
+                        letter-spacing: 5px;
+                        @include oswald();
+                    }
+                    .bar {
+                        display: block;
+                        margin: 30px 0;
+                        span {
+                            width: 80px;
+                            height: 1px;
+                            display: block;
+                            margin: 1px auto;
+                            background-color: #fff;
+                        }
+                    }
+                    p {
+                        font-size: 13px;
+                        line-height: 23px;
+                    }
+                }
+            }
 		}
 		&.active {
 			.figure {
@@ -87,44 +131,39 @@
 				-webkit-transform: scale(1);
 				transform: scale(1);
 			}
-			.content {
-                
-			}
+            .content {
+                opacity: 1;
+                transform: scale(1);
+            }
 		}
 	}
 	.bx-controls {
 		.bx-controls-direction {
 			display: none;
 		}
-		.bx-pager {
-			z-index: 51;
-			position: absolute;
-			bottom: 20px;
-			width: 100%;
-			height: 10px;
-			line-height: 10px;
-			text-align: center;
-			.bx-pager-item {
-				display: inline-block;
-				.bx-pager-link {
-					float: left;
-					width: 10px;
-					height: 10px;
-					border: 1px solid #fff;
-					border-radius: 50%;
-					color: #fff;
-					&.active {
-						background-color: #fff;
-					}
-				}
-				& + .bx-pager-item {
-					.bx-pager-link {
-						margin-left: 5px;
-					}
-				}
-			}
-		}
 	}
+    .bx-pager-img {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: 30px;
+        font-size: 0;
+        z-index: 99;
+        > a {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            margin: 0 4px;
+            border: 1px solid #a4a4a4;;
+            border-radius: 50%;
+            .figure {
+                display: none;
+            }
+            &.active {
+                background-color: #a4a4a4;
+            }
+        }
+    }
 	@media (min-width: $sm) {
 		.intro-item {
 			height: 680px;
@@ -143,33 +182,40 @@
 				transform: scale(1.8);
 			}
 			.content {
-                
-			}
+                .txt {
+                    .vertical-box {
+                        h2 {
+                            font-size: 100px;
+                            line-height: 130px;
+                        }
+                        .bar {
+                            display: block;
+                            margin: 50px 0 45px;
+                            span {
+                                width: 168px;
+                            }
+                        }
+                        p {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
 			&.active {
 				.content {
 					
 				}
 			}
 		}
-		.bx-controls {
-			.bx-pager {
-				bottom: 40px;
-				height: 16px;
-				line-height: 16px;
-				.bx-pager-item {
-					display: inline-block;
-					.bx-pager-link {
-						width: 16px;
-						height: 16px;
-					}
-					& + .bx-pager-item {
-						.bx-pager-link {
-							margin-left: 10px;
-						}
-					}
-				}
-			}
-		}
+		.bx-pager-img {
+            bottom: 35px;
+            > a {
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                margin: 0 5px;
+            }
+        }
 	}
 	@media (min-width: $lg) {
 		.intro-item {
@@ -184,6 +230,17 @@
 				-webkit-transform: scale(1.5);
 				transform: scale(1.5);
 			}
+            .content {
+                padding-bottom: 150px;
+                .txt {
+                    .vertical-box {
+                        h2 {
+                            font-size: 110px;
+                            line-height: 130px;
+                        }
+                    }
+                }
+            }
 			&.active {
                 .container {
                     
@@ -192,43 +249,118 @@
 		}
 		.bx-controls {
 			.bx-controls-direction {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 1170px;
+                margin-left: -585px;
+                margin-top: -20px;
+                padding-bottom: 150px;
 				display: block;
-				.bx-prev {
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					z-index: 51;
-					margin-top: 20px;
-					margin-left: -560px;
-				}
-				.bx-next {
-					position: absolute;
-					top: 50%;
-					right: 50%;
-					z-index: 51;
-					margin-top: 20px;
-					margin-right: -560px;
-				}
-			}
-			.bx-pager {
-				bottom: 50px;
+                z-index: 51;
+                a {
+                    font-size: 40px;
+                    color: #fff;
+                    text-decoration: none;
+                    &.bx-prev {
+                        float: left;
+                    }
+                    &.bx-next {
+                        float: right;
+                    }
+                }
 			}
 		}
+        .bx-pager-img {
+            bottom: 55px;
+            > a {
+                display: inline-block;
+                width: 220px;
+                height: 90px;
+                margin: 0;
+                border-radius: 0;
+                border: 0;
+                background: none !important;
+                .figure {
+                    position: relative;
+                    width: 220px;
+                    height: 90px;
+                    display: block;
+                    @include transition();
+                    
+                    img {
+                        width: 100%;
+                        height: 100%
+                    }
+                    .hover-box {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 90;
+                        background-color: rgba(#000, .5);
+                    }
+                    .summary {
+                        position: absolute;
+                        top: 1px;
+                        left: 1px;
+                        width: 100%;
+                        height: 100%;
+                        font-size: 16px;
+                        color: #fff;
+                        font-weight: 300;
+                        line-height: 24px;
+                        padding: 20px;
+                        text-align: left;
+                        z-index: 91;
+                    }
+                }
+                &.active {
+                    .figure {
+                        background-color: rgba(#000, 0);
+                        border: 1px solid #fff;
+                        .hover-box {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            z-index: 999;
+                            background-color: rgba(#000, .0);
+                        }
+                    }
+                }
+            }
+        }
 	}
 }
 
 
 #success-plan {
+    height:311px;
+    @media(min-width: $sm) {
+        height: 388px;
+    }
+    @media(min-width: $lg) {
+        height:393px;
+    }
     .motion {
         position: relative;
         text-align: center;
-        padding: 65px 0;
+//        padding: 65px 0;
+        height:311px;
         > ul {
             display: inline-block;
             font-size: 0;
             > li {
                 display: inline-block;
-                vertical-align: top;
+                
+                opacity:0; 
+                position:absolute;
+                top:76px;
+                left:50%;
+                margin-left:-17px;
                 &:nth-child(even) {
                     padding-top: 30px;
                 }
@@ -267,9 +399,11 @@
             }
         }
         @media(min-width: $sm) {
-            padding: 75px 0;
+            height:388px;
             > ul {
                 > li {
+                    top:89px;
+                    margin-left:-21px;
                     &:nth-child(even) {
                         padding-top: 42px;
                     }
@@ -290,9 +424,11 @@
             }
         }
         @media(min-width: $lg) {
-            padding: 25px 0;
+            height:393px;
             > ul {
                 > li {
+                    top:39px;
+                    margin-left:-31px;
                     &:nth-child(even) {
                         padding-top: 62px;
                     }
@@ -658,12 +794,15 @@
                                 padding-right: 2px;
                             }
                             a {
+                                position: relative;
                                 display: block;
-                                .figure {
-                                    position: relative;
-                                    .content {
-                                        display: none;
-                                    }
+                                .content {
+                                    display: none;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
                                 }
                             }
                         }
@@ -727,79 +866,72 @@
                         li {
                             .item {
                                 a {
-                                    display: block;
-                                    .figure {
-                                        position: relative;
-                                        .content {
-                                            display: block !important;
-                                            position: absolute;
-                                            top: 0;
-                                            left: 0;
+                                    position: relative;
+                                    .content {
+                                        display: block !important;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 100%;
+                                        height: 100%;
+                                        opacity: 0;
+                                        background-color: #333;
+                                        @include transition($duration: .40s);
+                                        > .details {
+                                            display: table;
                                             width: 100%;
                                             height: 100%;
-                                            opacity: 0;
-                                            background-color: #333;
-                                            @include transition($duration: .30s);
-                                            > .details {
-                                                display: table;
-                                                width: 100%;
+                                            > .vertical-box {
+                                                display: table-cell;
                                                 height: 100%;
-                                                > .vertical-box {
-                                                    display: table-cell;
-                                                    height: 100%;
-                                                    vertical-align: middle;
-                                                    text-align: center;
-                                                    color: #fff;
-                                                    .icon-quote-left {
-                                                        font-size: 12px;
-                                                        display: block;
-                                                    }
-                                                    .title {
-                                                        font-size: 11px;
-                                                        line-height: 16px;
-                                                        font-weight: 300;
-                                                        margin: 10px 0 5px;
-                                                    }
-                                                    p {
-                                                        font-size: 10px;
-                                                        line-height: 14px;
-                                                        font-weight: 300;
-                                                        display: inline-block;
-                                                        border-bottom: 1px solid #999;
-                                                        @include oswald();
-                                                    }
+                                                vertical-align: middle;
+                                                text-align: center;
+                                                color: #fff;
+                                                .icon-quote-left {
+                                                    font-size: 12px;
+                                                    display: block;
+                                                }
+                                                .title {
+                                                    font-size: 15px;
+                                                    line-height: 20px;
+                                                    font-weight: 300;
+                                                    margin: 15px 0 10px;
+                                                }
+                                                p {
+                                                    font-size: 13px;
+                                                    line-height: 14px;
+                                                    font-weight: 300;
+                                                    display: inline-block;
+                                                    border-bottom: 1px solid #999;
+                                                    @include oswald();
                                                 }
                                             }
                                         }
                                     }
                                     &:hover, &:focus {
-                                        .figure {
-                                            .content {
-                                                opacity: 1;
-                                            }
+                                        .content {
+                                            opacity: 1;
                                         }
                                     }
                                 }
                                 &.big-content {
                                     a {
-                                        .figure {
-                                            .content {
-                                                .details {
-                                                    .vertical-box {
-                                                        .icon-quote-left {
-                                                            font-size: 25px;
-                                                        }
-                                                        .title {
-                                                            font-size: 30px;
-                                                            font-weight: 500;
-                                                            line-height: 40px;
-                                                            margin: 40px 0 25px;
-                                                        }
-                                                        p {
-                                                            font-size: 25px;
-                                                            font-weight: 400;
-                                                            line-height: 28px;
-                                                        }
+                                        .content {
+                                            .details {
+                                                .vertical-box {
+                                                    .icon-quote-left {
+                                                        font-size: 25px;
+                                                    }
+                                                    .title {
+                                                        font-size: 30px;
+                                                        font-weight: 500;
+                                                        line-height: 40px;
+                                                        margin: 40px 0 25px;
+                                                    }
+                                                    p {
+                                                        font-size: 25px;
+                                                        font-weight: 400;
+                                                        line-height: 28px;
                                                     }
                                                 }
                                             }
@@ -920,47 +1052,42 @@
 
 // movie
 .movie {
+    background-image: url(/assets/images/main/bg_movie.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
     .section-header {
         padding: 60px 0 30px;
     }
     .section-content {
         padding-bottom: 60px;
-        .container-fluid {
-            overflow: hidden;
-            .bx-wrapper {
-                position: relative;
-                padding: 0 15px;
-                margin: 0 auto;
-                .bx-viewport {
-                    .movie-list {
-                        li {
-                            
+        .bx-wrapper {
+            position: relative;
+            padding: 0 15px;
+            margin: 0 auto;
+            .bx-controls {
+                .bx-controls-direction {
+                    a {
+                        position: absolute;
+                        top: 50%;
+                        margin-top: -7px;
+                        font-size: 16px;
+                        color: #aaa;
+                        text-decoration: none;
+                        @include transition();
+                        i {
+                            &:before {
+                                margin: 0;
+                            }
                         }
-                    }
-                }
-                .bx-controls {
-                    .bx-controls-direction {
-                        a {
-                            position: absolute;
-                            top: 50%;
-                            margin-top: -7px;
-                            font-size: 16px;
-                            color: #aaa;
-                            @include transition();
-                            i {
-                                &:before {
-                                    margin: 0;
-                                }
-                            }
-                            &:hover, &:focus {
-                                color: #333;
-                            }
-                            &.bx-prev {
-                                left: -5px;
-                            }
-                            &.bx-next {
-                                right: -5px;
-                            }
+                        &:hover, &:focus {
+                            color: #333;
+                        }
+                        &.bx-prev {
+                            left: -5px;
+                        }
+                        &.bx-next {
+                            right: -5px;
                         }
                     }
                 }
@@ -973,32 +1100,21 @@
         }
         .section-content {
             padding-bottom: 110px;
-            .container-fluid {
-                padding-left: 20px;
-                padding-right: 20px;
-                .bx-wrapper {
-                    padding: 0 60px;
-                    margin: 0 auto;
-                    .bx-viewport {
-                        .movie-list {
-                            li {
-                                
+            .bx-wrapper {
+                padding: 0 60px;
+                margin: 0 auto;
+                .bx-controls {
+                    .bx-controls-direction {
+                        a {
+                            position: absolute;
+                            top: 50%;
+                            margin-top: -13px;
+                            font-size: 25px;
+                            &.bx-prev {
+                                left: 0px;
                             }
-                        }
-                    }
-                    .bx-controls {
-                        .bx-controls-direction {
-                            a {
-                                position: absolute;
-                                top: 50%;
-                                margin-top: -13px;
-                                font-size: 25px;
-                                &.bx-prev {
-                                    left: 0px;
-                                }
-                                &.bx-next {
-                                    right: 0px;
-                                }
+                            &.bx-next {
+                                right: 0px;
                             }
                         }
                     }
@@ -1012,40 +1128,28 @@
         }
         .section-content {
             padding-bottom: 110px;
-            .container-fluid {
-                padding-left: 0;
-                padding-right: 0;
-                .bx-wrapper {
-                    width: 100% !important;
-                    padding: 0;
-                    .bx-viewport {
-                        .movie-list {
-                            li {
-                                .movie-content {
-                                    margin: 0 15px;
-                                    position: relative;
-                                    z-index: 100;
-                                    .hover-box {
-                                        cursor: pointer;
-                                        position: absolute;
-                                        top: 0;
-                                        left: 0;
-                                        width: 100%;
-                                        height: 100%;
-                                        z-index: 200;
-                                        background-color: rgba(0, 0, 0, .5);
-                                        
-                                    }
-                                }
-                                &.active {
-                                    cursor: default;
-                                    .movie-content {
-                                        z-index: 300;
-                                        .hover-box {
-                                            display: none;
-                                        }
-                                    }
-                                }
+            .bx-wrapper {
+                width: 100% !important;
+                padding: 0;
+                .bx-viewport {
+                    .movie-list {
+                        li {
+                            
+                        }
+                    }
+                }
+                .bx-controls {
+                    .bx-controls-direction {
+                        a {
+                            position: absolute;
+                            top: 50%;
+                            margin-top: -18px;
+                            font-size: 36px;
+                            &.bx-prev {
+                                left: -60px;
+                            }
+                            &.bx-next {
+                                right: -60px;
                             }
                         }
                     }
@@ -1141,42 +1245,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

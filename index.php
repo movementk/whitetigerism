@@ -12,28 +12,123 @@
 			<div class="slider">
 				<div class="intro-item intro-item-1">
 					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
-					<!--div class="content">
-						
-					</div-->
+					<div class="content">
+						<div class="txt">
+                            <div class="vertical-box">
+						        <h2>YOU GO<br>WE GO!</h2>
+                                <div class="bar">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <p>
+                                    화이트타이거즈는 평창올림픽의<br class="visible-xs">
+                                    성공적인 개최를 기원합니다.
+                                </p>
+                            </div>
+						</div>
+					</div>
 				</div>
 				<div class="intro-item intro-item-2">
 					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
-					<video id="intro-video-2" class="video" loop muted>
+					<!--video id="intro-video-2" class="video" loop muted>
 						<source src="/assets/images/main/mv_intro_1.mp4" type="video/mp4">
 				  		<source src="/assets/images/main/mv_intro_1.ogv" type="video/ogv">
 					  	이 브라우저는 동영상을 지원하지 않습니다.
-					</video>
-					<!--div class="content">
-						
-					</div-->
+					</video-->
+					<div class="content">
+						<div class="txt">
+                            <div class="vertical-box">
+						        <h2>YOU GO<br>WE GO!</h2>
+                                <div class="bar">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <p>
+                                    화이트타이거즈는 평창올림픽의<br class="visible-xs">
+                                    성공적인 개최를 기원합니다.
+                                </p>
+                            </div>
+						</div>
+					</div>
 				</div>
 				<div class="intro-item intro-item-2">
 					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
-					<!--div class="content">
-						
-					</div-->
+					<div class="content">
+						<div class="txt">
+                            <div class="vertical-box">
+						        <h2>YOU GO<br>WE GO!</h2>
+                                <div class="bar">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <p>
+                                    화이트타이거즈는 평창올림픽의<br class="visible-xs">
+                                    성공적인 개최를 기원합니다.
+                                </p>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="intro-item intro-item-2">
+					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
+					<div class="content">
+						<div class="txt">
+                            <div class="vertical-box">
+						        <h2>YOU GO<br>WE GO!</h2>
+                                <div class="bar">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <p>
+                                    화이트타이거즈는 평창올림픽의<br class="visible-xs">
+                                    성공적인 개최를 기원합니다.
+                                </p>
+                            </div>
+						</div>
+					</div>
 				</div>
 			</div>
+			
+			<div class="bx-pager-img">
+                <a data-slide-index="0" href="">
+                    <div class="figure">
+                        <img src="/assets/images/main/entertainer_cheer_img01.jpg" class="img-responsive" alt="">
+                        <div class="hover-box"></div>
+                        <p class="summary">
+                            평창올림픽 성공 개최<br> 기원
+                        </p>
+                    </div>
+                </a>
+                <a data-slide-index="1" href="">
+                    <div class="figure">
+                        <img src="/assets/images/main/entertainer_cheer_img02.jpg" class="img-responsive" alt="">
+                        <div class="hover-box"></div>
+                        <p class="summary">
+                            정찬우 단장 올림픽<br> 홍보대사 위촉
+                        </p>
+                    </div>
+                </a>
+                <a data-slide-index="2" href="">
+                    <div class="figure">
+                        <img src="/assets/images/main/entertainer_cheer_img03.jpg" class="img-responsive" alt="">
+                        <div class="hover-box"></div>
+                        <p class="summary">
+                            화이트타이거 공식<br> 
+                            서포터즈 발대식
+                        </p>
+                    </div>
+                </a>
+                <a data-slide-index="3" href="">
+                    <div class="figure">
+                        <img src="/assets/images/main/entertainer_cheer_img04.jpg" class="img-responsive" alt="">
+                        <div class="hover-box"></div>
+                        <p class="summary">
+                            국토 대장정<br> 기념행사
+                        </p>
+                    </div>
+                </a>
+            </div>
+            
 		</section>
         
         <!-- 동계올림픽 성공개최 -->
@@ -199,17 +294,15 @@
                             <li>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img01.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img01.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -217,17 +310,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img02.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img02.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -235,17 +326,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img03.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img03.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -255,17 +344,15 @@
                             <li class="big-item">
                                 <div class="item big-content">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_big_img01.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_big_img01.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -273,17 +360,15 @@
                                 </div>
                                 <div class="item inline-box r-space">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img04.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img04.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -291,17 +376,15 @@
                                 </div>
                                 <div class="item inline-box l-space">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img05.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img05.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -311,17 +394,15 @@
                             <li>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img08.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img08.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -329,17 +410,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img07.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img07.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -347,17 +426,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img06.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img06.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -372,17 +449,15 @@
                             <li>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img01.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img01.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -390,17 +465,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img02.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img02.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -408,17 +481,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img03.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img03.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -428,17 +499,15 @@
                             <li class="big-item space">
                                 <div class="item inline-box r-space">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img04.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img04.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -446,17 +515,15 @@
                                 </div>
                                 <div class="item inline-box l-space">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img05.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img05.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -464,17 +531,15 @@
                                 </div>
                                 <div class="item big-content clear">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_big_img01.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_big_img01.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -484,17 +549,15 @@
                             <li>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img08.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img08.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -502,17 +565,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img07.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img07.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -520,17 +581,15 @@
                                 </div>
                                 <div class="item">
                                     <a href="#">
-                                        <div class="figure">
-                                            <img src="/assets/images/main/event_small_img06.jpg" class="img-responsive" alt="">
-                                            <div class="content">
-                                                <div class="details">
-                                                    <div class="vertical-box">
-                                                        <i class="icon-quote-left"></i>
-                                                        <h4 class="title">
-                                                            세계가 대한민국으로<br>대한민국이 세계로
-                                                        </h4>
-                                                        <p>YOU GO WE GO</p>
-                                                    </div>
+                                        <img src="/assets/images/main/event_small_img06.jpg" class="img-responsive" alt="">
+                                        <div class="content">
+                                            <div class="details">
+                                                <div class="vertical-box">
+                                                    <i class="icon-quote-left"></i>
+                                                    <h4 class="title">
+                                                        세계가 대한민국으로<br>대한민국이 세계로
+                                                    </h4>
+                                                    <p>YOU GO WE GO</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -581,7 +640,7 @@
                                         </p>
                                     </div>
                                 </a>
-                                <a href="#" class="more">Read More ></a>
+                                <a href="#" class="more">Read More</a>
                             </article>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-lg-4 visible-lg">
@@ -614,27 +673,31 @@
                 </div>
             </div>
             <div class="section-content">
-                <div class="container-fluid">
-                    <!--ul class="movie-list">
-                        <li>
-                            <div class="embed-responsive embed-responsive-16by9 movie-content">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sU720iPSSaY"></iframe>
-                                <div class="hover-box"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="embed-responsive embed-responsive-16by9 movie-content">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qUYKN5hz87A"></iframe>
-                                <div class="hover-box"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="embed-responsive embed-responsive-16by9 movie-content">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EifD_HBokiU"></iframe>
-                                <div class="hover-box"></div>
-                            </div>
-                        </li>
-                    </ul-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+                            <ul class="movie-list">
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9 movie-content">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sU720iPSSaY"></iframe>
+                                        <div class="hover-box"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9 movie-content">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qUYKN5hz87A"></iframe>
+                                        <div class="hover-box"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="embed-responsive embed-responsive-16by9 movie-content">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EifD_HBokiU"></iframe>
+                                        <div class="hover-box"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -680,107 +743,8 @@
     <!-- //content End --->
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script>
-        (function($) {
-            // 스폰서 슬라이더
-            var sponsorsSliderOpt = {
-                auto: true,
-                controls: false,
-                pager: false,
-                minSlides: 3,
-                maxSlides: 3,
-                moveSlides: 1,
-                slideWidth: 80,
-                slideMargin: 10
-            };
-
-            var sponsorsSlider = $('.sponsors-list').bxSlider(sponsorsSliderOpt);
-
-            $(window).on('load resize', function() {
-                var conWidth = $('.container:eq(0)').outerWidth();
-                sponsorsSlider.reloadSlider(sponsorsSliderOpt);
-                if ( conWidth >= 750 ) {
-                    sponsorsSlider.reloadSlider({
-                        auto: true,
-                        controls: false,
-                        pager: false,
-                        slideWidth: 186,
-                        minSlides: 3,
-                        maxSlides: 3,
-                        moveSlides: 1,
-                        slideMargin: 10
-                    });
-                }
-                if ( conWidth >= 970 ) {
-                    sponsorsSlider.reloadSlider({
-                        auto: true,
-                        controls: false,
-                        pager: false,
-                        slideWidth: 230,
-                        minSlides: 4,
-                        maxSlides: 4,
-                        moveSlides: 1,
-                        slideMargin: 10
-                    });
-                }
-                if ( conWidth >= 1200 ) {
-                    sponsorsSlider.reloadSlider({
-                        auto: true,
-                        pager: false,
-                        controls: false,
-                        slideWidth: 230,
-                        minSlides: 4,
-                        maxSlides: 4,
-                        moveSlides: 1,
-                        slideMargin: 10
-                    });
-                }
-            });
-            
-
-            // 메인 슬라이더 관련
-            $('#introduce .slider').bxSlider({
-                mode: 'fade',
-                preventDefaultSwipeY: true,
-                preventDefaultSwipeX: true,
-                touchEnabled: false,
-                buildPager: function(slideIndex) {
-                    return '<span class="sr-only">'+slideIndex+'</span>';
-                },
-                onSliderLoad: function(currentIndex) {
-                    var $currentElem = $('#introduce .intro-item:not(.bx-clone):eq(0)');
-                    $currentElem.addClass('active');
-                    var typeContainer = $currentElem.find('span.typed:eq(0)');
-                    var typeString    = $currentElem.find('span.typed:eq(0)').attr("data-typed");
-                    var introVideo = document.getElementById('intro-video-'+(currentIndex+1));
-                    if (introVideo) {
-                        introVideo.play();
-                    }
-                },
-                onSlideBefore: function($slideElement, oldIndex, newIndex) {
-                    $('#introduce .intro-item.active').removeClass('active');
-                    var introVideo = document.getElementById('intro-video-'+(oldIndex+1));
-                    if (introVideo) {
-                        introVideo.pause();
-                    }
-                },
-                onSlideAfter: function($slideElement, oldIndex, newIndex) {
-                    $slideElement.addClass('active');
-                    var typeContainer = $slideElement.find('span.typed:eq(0)');
-                    var typeString    = $slideElement.find('span.typed:eq(0)').attr("data-typed");
-                    typeContainer.text("").unityping({
-                        string: [typeString],
-                        typingSpeed: 1000,
-                        startDelay: 1500
-                    });
-                    var introVideo = document.getElementById('intro-video-'+(newIndex+1));
-                    if (introVideo) {
-                        introVideo.play();
-                    }
-                }
-            });
-        })(jQuery);
-    </script>
+    <script src="//cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="/bbs/js/mk_main.js"></script>
 </body>
 </html>

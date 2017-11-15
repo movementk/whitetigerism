@@ -22,6 +22,7 @@ body {
     width: 100%;
     height: 45px;
     background-color: #1e1e1e;
+    @include transition();
     > .logo {
         position: absolute;
         top: 50%;
@@ -33,6 +34,9 @@ body {
             display: block;
             img {
                 width: 119px;
+                &.scrolled-img {
+                    display: none;
+                }
             }
         }
     }
@@ -151,6 +155,78 @@ body {
         }
     }
 }
+
+// scrolled
+.scrolled {
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15); 
+        > .logo {
+            a {
+                img {
+                    &.basic-img {
+                        display: none;
+                    }
+                    &.scrolled-img {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .quick-menu {
+            ul {
+                li {
+                    .btn-open-side-nav {
+                        > .bar {
+                            background-color: #666;
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            .quick-menu {
+                ul {
+                    li {
+                        a {
+                            color: #666;
+                            &:hover {
+                                color: #333;
+                            }
+                        }
+                        .btn-open-side-nav {
+                            > .bar {
+                                background-color: #666;
+                            }
+                            &:hover, &:focus {
+                                > .bar {
+                                    background-color: #333;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            #nav {
+                .gnb-menu {
+                    li {
+                        a {
+                            color: #333;
+                            &:hover, &:focus {
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 // GNB
 #nav {

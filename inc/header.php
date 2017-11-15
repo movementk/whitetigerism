@@ -1,7 +1,10 @@
 <!-- Header --->
 <header id="header">
     <h1 class="logo">
-        <a href="/"><img src="/assets/images/logo.png" alt=""></a>
+        <a href="/">
+            <img src="/assets/images/logo.png" class="basic-img" alt="">
+            <img src="/assets/images/active_logo.png" class="scrolled-img" alt="">
+        </a>
     </h1>
     <div class="quick-menu">
         <ul>
