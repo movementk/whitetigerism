@@ -411,6 +411,46 @@ address {
 #content {
   min-height: 500px; }
 
+.guide-title {
+  font-size: 18px;
+  color: #000;
+  font-weight: 600;
+  padding: 50px 0 20px; }
+
+.form-group {
+  margin-bottom: 0; }
+
+.form-control {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  color: #999;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid #e3e3e3; }
+  .form-control:hover, .form-control:focus {
+    box-shadow: none; }
+
+label {
+  font-weight: 400;
+  margin: 0;
+  padding: 0; }
+
+.btn {
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s; }
+  .btn:hover, .btn:focus {
+    opacity: .7; }
+
 .page-header {
   position: relative;
   margin: 0;
@@ -590,9 +630,46 @@ address {
       padding-left: 52px;
       background-size: 32px auto; } }
 
-.table-wrap .table {
+.search-form {
+  position: relative;
+  text-align: right; }
+  .search-form .form-group {
+    display: inline-block;
+    width: 300px;
+    font-size: 0; }
+    .search-form .form-group select {
+      width: 110px !important; }
+    .search-form .form-group input {
+      padding-right: 50px; }
+    .search-form .form-group .form-control {
+      display: inline-block;
+      width: 180px;
+      font-size: 14px;
+      color: #999;
+      margin-left: 10px; }
+      .search-form .form-group .form-control:first-child {
+        margin-left: 0; }
+  .search-form .btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 45px;
+    padding: 0;
+    border-radius: 0;
+    background-color: #222; }
+  @media (min-width: 768px) {
+    .search-form .form-group {
+      width: 350px; }
+      .search-form .form-group .form-control {
+        width: 230px; } }
+
+.table-wrap .table.location {
   margin-bottom: 0; }
-  .table-wrap .table tbody tr th {
+  .table-wrap .table.location tbody tr th {
     width: 95px;
     font-size: 14px;
     color: #333;
@@ -604,12 +681,12 @@ address {
     border-bottom: 1px solid #f5f5f5;
     background-color: #e3e3e3; }
     @media (min-width: 768px) {
-      .table-wrap .table tbody tr th {
+      .table-wrap .table.location tbody tr th {
         width: 235px;
         font-size: 16px;
         padding-left: 40px;
         border-right: 1px solid #cecece; } }
-  .table-wrap .table tbody tr td {
+  .table-wrap .table.location tbody tr td {
     font-size: 13px;
     color: #666;
     line-height: 18px;
@@ -619,14 +696,244 @@ address {
     border: 0;
     border-bottom: 1px solid #e5e5e5; }
     @media (min-width: 768px) {
-      .table-wrap .table tbody tr td {
+      .table-wrap .table.location tbody tr td {
         font-size: 14px;
         padding: 25px 10px 25px 50px; } }
-  .table-wrap .table tbody tr:first-child th {
+  .table-wrap .table.location tbody tr:first-child th {
     border-top: 1px solid #cecece; }
-  .table-wrap .table tbody tr:first-child td {
+  .table-wrap .table.location tbody tr:first-child td {
     border-top: 1px solid #e5e5e5; }
-  .table-wrap .table tbody tr:last-child th {
+  .table-wrap .table.location tbody tr:last-child th {
     border-bottom: 1px solid #e5e5e5; }
+.table-wrap .table.list {
+  border-top: 2px solid #222;
+  table-layout: fixed; }
+  .table-wrap .table.list tbody tr td {
+    vertical-align: middle;
+    padding: 18px 0;
+    font-size: 13px;
+    text-align: center;
+    color: #666;
+    font-weight: 400;
+    font-family: 'NanumSquare', sans-serif;
+    border: 0;
+    border-bottom: 1px solid #d6d6d6; }
+    .table-wrap .table.list tbody tr td.count {
+      width: 60px; }
+    .table-wrap .table.list tbody tr td.subject {
+      text-align: left; }
+      .table-wrap .table.list tbody tr td.subject a {
+        display: block;
+        color: #666;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+    .table-wrap .table.list tbody tr td.date {
+      width: 100px; }
+    @media (min-width: 768px) {
+      .table-wrap .table.list tbody tr td {
+        padding: 18px 0;
+        font-size: 14px; }
+        .table-wrap .table.list tbody tr td.count {
+          width: 100px; }
+        .table-wrap .table.list tbody tr td.subject {
+          padding-left: 20px; }
+          .table-wrap .table.list tbody tr td.subject a {
+            font-size: 14px; }
+        .table-wrap .table.list tbody tr td.date {
+          width: 120px; } }
+
+.btn-area {
+  text-align: center; }
+  .btn-area p {
+    font-size: 0; }
+    .btn-area p ~ p {
+      margin-top: 10px; }
+    .btn-area p .btn {
+      font-size: 14px;
+      color: #fff;
+      border-radius: 3px; }
+      .btn-area p .btn:last-child {
+        margin-right: 0; }
+      .btn-area p .btn.btn-sm {
+        width: 96px;
+        height: 45px;
+        line-height: 45px;
+        margin-right: 6px; }
+        .btn-area p .btn.btn-sm:last-child {
+          margin-right: 0; }
+        @media (min-width: 768px) {
+          .btn-area p .btn.btn-sm {
+            width: 85px;
+            height: 38px;
+            line-height: 38px; } }
+      .btn-area p .btn.btn-md {
+        width: 145px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 10px; }
+        .btn-area p .btn.btn-md:last-child {
+          margin-right: 0; }
+        @media (min-width: 768px) {
+          .btn-area p .btn.btn-md {
+            width: 84px;
+            height: 38px;
+            line-height: 38px;
+            margin-right: 5px; } }
+      .btn-area p .btn.btn-lg {
+        width: 300px;
+        height: 40px;
+        line-height: 40px; }
+        @media (min-width: 768px) {
+          .btn-area p .btn.btn-lg {
+            width: 85px;
+            height: 38px;
+            line-height: 38px; } }
+      .btn-area p .btn.btn-gray {
+        background-color: #adadad; }
+      .btn-area p .btn.btn-black {
+        background-color: #000; }
+
+.paging {
+  text-align: center; }
+  .paging .pagination li a {
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+    color: #666;
+    padding: 0;
+    line-height: 26px;
+    margin: 0 2px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1; }
+    .paging .pagination li a:hover, .paging .pagination li a:focus {
+      background-color: #fff; }
+  .paging .pagination li.active a {
+    color: #fff;
+    border-color: #252525;
+    background-color: #252525; }
+  .paging .pagination li.next a {
+    margin-left: 15px; }
+  .paging .pagination li.prev a {
+    margin-right: 15px; }
+
+.celebrity-cheer > ul > li ~ li a {
+  margin-top: 10px; }
+.celebrity-cheer > ul > li > a {
+  display: block; }
+  .celebrity-cheer > ul > li > a figure {
+    position: relative; }
+    .celebrity-cheer > ul > li > a figure .img-responsive {
+      display: block;
+      width: 100%;
+      margin: 0 auto; }
+    .celebrity-cheer > ul > li > a figure figcaption {
+      position: absolute;
+      bottom: 20px;
+      left: 15px;
+      font-size: 11px;
+      color: #fff;
+      line-height: 14px;
+      padding-left: 40px;
+      background-image: url(/assets/images/sub/summary_logo.png);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: 28px auto; }
+      .celebrity-cheer > ul > li > a figure figcaption small {
+        display: block;
+        font-size: 10px; }
+@media (min-width: 768px) {
+  .celebrity-cheer > ul > li:nth-of-type(2n + 1) {
+    clear: both; }
+  .celebrity-cheer > ul > li:nth-of-type(2) a {
+    margin-top: 0; }
+  .celebrity-cheer > ul > li a figure figcaption {
+    left: 20px;
+    bottom: 25px;
+    font-size: 13px;
+    line-height: 16px;
+    padding-left: 45px;
+    background-size: 32px auto; }
+    .celebrity-cheer > ul > li a figure figcaption small {
+      font-size: 12px; } }
+@media (min-width: 992px) {
+  .celebrity-cheer > ul > li:nth-of-type(3) a {
+    margin-top: 0; }
+  .celebrity-cheer > ul > li:nth-of-type(4) a {
+    margin-top: 0; }
+  .celebrity-cheer > ul > li:nth-of-type(2n + 1) {
+    clear: none; }
+  .celebrity-cheer > ul > li:nth-of-type(4n + 1) {
+    clear: both; } }
+
+.data-list {
+  border-top: 2px solid #222; }
+  .data-list > li {
+    padding: 20px;
+    border-bottom: 1px solid #d6d6d6; }
+    .data-list > li a {
+      display: block; }
+      .data-list > li a .item .img-responsive {
+        width: 100%;
+        margin: 0 auto; }
+      .data-list > li a .details {
+        margin-top: 25px;
+        font-family: 'NanumSquare', sans-serif; }
+        .data-list > li a .details .date {
+          font-size: 12px;
+          color: #666;
+          display: block;
+          text-align: right;
+          margin-bottom: 10px; }
+        .data-list > li a .details .title {
+          display: block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-size: 16px;
+          color: #666;
+          line-height: 20px;
+          font-weight: 600; }
+        .data-list > li a .details .summary {
+          display: block;
+          margin-top: 25px;
+          font-size: 13px;
+          color: #666;
+          line-height: 18px; }
+    @media (min-width: 768px) {
+      .data-list > li {
+        padding: 30px; }
+        .data-list > li a .details {
+          position: relative;
+          margin-top: 0;
+          margin-left: 30px; }
+          .data-list > li a .details .date {
+            font-size: 15px;
+            color: #666;
+            margin-bottom: 15px; }
+          .data-list > li a .details .title {
+            font-size: 18px; }
+          .data-list > li a .details .summary {
+            font-size: 14px;
+            line-height: 24px; } }
+    @media (min-width: 1200px) {
+      .data-list > li {
+        padding: 30px 45px; }
+        .data-list > li a .details {
+          position: relative;
+          margin-top: 0;
+          margin-left: 70px;
+          padding-right: 100px; }
+          .data-list > li a .details .date {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-bottom: 0; }
+          .data-list > li a .details .title {
+            padding-top: 5px;
+            font-size: 20px; }
+          .data-list > li a .details .summary {
+            margin-top: 40px; } }
 
 /*# sourceMappingURL=sub.css.map */
