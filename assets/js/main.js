@@ -39,16 +39,6 @@
         }
     });
 
-    // 무비 슬라이더
-    $(document).ready(function(){
-        $('.movie .movie-list').bxSlider({
-            auto: true,
-            pager: false,
-            prevText: '<i class="icon-left-open"><span class="sr-only">이전</span></i>',
-            nextText: '<i class="icon-right-open"><span class="sr-only">다음</span></i>'
-        });
-    });
-
 
     // 스폰서 슬라이더
     var sponsorsSliderOpt = {

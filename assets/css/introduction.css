@@ -409,4 +409,239 @@ address {
           padding-left: 15px;
           padding-right: 15px; } }
 
-/*# sourceMappingURL=common.css.map */
+.introduce {
+  background-image: url(/assets/images/introduction/bg_xs_introduce.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 26px; }
+  .introduce .section-content {
+    margin-top: 60px; }
+    .introduce .section-content .supporters {
+      padding-bottom: 30px; }
+      .introduce .section-content .supporters .plan h4 {
+        display: block;
+        width: 288px;
+        text-align: left;
+        font-family: 'Titillium Web', sans-serif;
+        margin-bottom: 60px;
+        overflow: hidden; }
+        .introduce .section-content .supporters .plan h4 small {
+          font-size: 44px;
+          font-weight: 300;
+          color: rgba(0, 0, 0, 0.6); }
+        .introduce .section-content .supporters .plan h4 strong {
+          font-size: 48px;
+          color: #000;
+          font-weight: bold; }
+        .introduce .section-content .supporters .plan h4 b {
+          font-size: 30px;
+          color: #0275bb;
+          float: right; }
+      .introduce .section-content .supporters .plan p {
+        font-size: 13px;
+        color: #666;
+        line-height: 24px;
+        text-align: justify; }
+      .introduce .section-content .supporters figure {
+        margin-bottom: 110px; }
+    .introduce .section-content .come-true {
+      position: relative; }
+      .introduce .section-content .come-true .box {
+        height: 410px;
+        background-image: url(/assets/images/introduction/bg_xs_come_true.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
+        .introduce .section-content .come-true .box.one {
+          text-align: center;
+          padding-top: 165px;
+          background: none;
+          background-color: #0275bb; }
+          .introduce .section-content .come-true .box.one small {
+            display: inline-block;
+            font-size: 24px;
+            font-weight: 200;
+            color: #fff;
+            font-family: 'NanumSquare', sans-serif;
+            border-bottom: 1px solid #fff; }
+          .introduce .section-content .come-true .box.one strong {
+            display: block;
+            font-size: 60px;
+            color: #fff;
+            line-height: 70px;
+            font-weight: bold;
+            margin-top: 25px; }
+      .introduce .section-content .come-true .circle-summary {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 280px;
+        height: 280px;
+        display: table;
+        margin-top: -140px;
+        margin-left: -140px;
+        border-radius: 50%;
+        box-shadow: 0px 11px 7px 0px rgba(0, 0, 0, 0.1);
+        background-color: #fff; }
+        .introduce .section-content .come-true .circle-summary > div {
+          display: table-cell;
+          width: 100%;
+          height: 100%;
+          vertical-align: middle;
+          text-align: center; }
+          .introduce .section-content .come-true .circle-summary > div h5 {
+            display: inline-block; }
+            .introduce .section-content .come-true .circle-summary > div h5 img {
+              width: 190px; }
+          .introduce .section-content .come-true .circle-summary > div p {
+            font-size: 15px;
+            color: #666;
+            font-family: 'NanumSquare', sans-serif;
+            line-height: 24px;
+            margin-top: 20px; }
+    .introduce .section-content .greeting {
+      padding: 60px 0 120px; }
+      .introduce .section-content .greeting .article-header h6 {
+        font-size: 24px;
+        color: #222;
+        line-height: 30px;
+        padding: 55px 0 0 10px;
+        background-image: url(/assets/images/introduction/bg_greeting_header.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: 149px auto;
+        font-family: 'Titillium Web', sans-serif; }
+      .introduce .section-content .greeting .article-header p {
+        font-size: 13px;
+        color: #777;
+        line-height: 24px;
+        margin-top: 45px;
+        text-align: justify; }
+      .introduce .section-content .greeting .article-content {
+        margin-top: 45px; }
+        .introduce .section-content .greeting .article-content figure {
+          margin: 0 -10px; }
+          .introduce .section-content .greeting .article-content figure .img-responsive {
+            margin: 0 auto; }
+  @media (min-width: 768px) {
+    .introduce {
+      background-image: url(/assets/images/introduction/bg_sm_introduce.png);
+      background-size: auto;
+      background-position: 50% 0; }
+      .introduce .section-content {
+        margin-top: 90px; }
+        .introduce .section-content .supporters {
+          padding-bottom: 75px; }
+          .introduce .section-content .supporters .plan h4 {
+            width: 575px;
+            margin: 0 auto;
+            margin-bottom: 60px; }
+            .introduce .section-content .supporters .plan h4 small {
+              font-size: 60px; }
+            .introduce .section-content .supporters .plan h4 strong {
+              font-size: 96px; }
+            .introduce .section-content .supporters .plan h4 b {
+              font-size: 58px; }
+          .introduce .section-content .supporters .plan p {
+            font-size: 16px;
+            line-height: 34px; }
+          .introduce .section-content .supporters figure {
+            margin-bottom: 120px; }
+        .introduce .section-content .come-true .box {
+          height: 647px; }
+          .introduce .section-content .come-true .box.one {
+            padding-top: 210px; }
+            .introduce .section-content .come-true .box.one small {
+              font-size: 28px;
+              padding: 0 10px 10px 10px; }
+            .introduce .section-content .come-true .box.one strong {
+              font-size: 90px;
+              line-height: 130px;
+              margin-top: 35px; }
+        .introduce .section-content .come-true .circle-summary {
+          width: 390px;
+          height: 390px;
+          margin-top: -195px;
+          margin-left: -195px; }
+          .introduce .section-content .come-true .circle-summary > div h5 img {
+            width: 273px; }
+          .introduce .section-content .come-true .circle-summary > div p {
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 35px; }
+        .introduce .section-content .greeting {
+          padding: 90px 0 180px; }
+          .introduce .section-content .greeting .article-header h6 {
+            font-size: 36px;
+            line-height: 48px;
+            padding: 76px 0 0 80px;
+            background-size: 243px auto; }
+          .introduce .section-content .greeting .article-header p {
+            font-size: 15px;
+            line-height: 30px;
+            margin-top: 60px;
+            padding-left: 80px; }
+          .introduce .section-content .greeting .article-content {
+            margin-top: 80px; } }
+  @media (min-width: 992px) {
+    .introduce .section-content .supporters {
+      padding-bottom: 200px; }
+      .introduce .section-content .supporters .plan h4 {
+        width: 418px;
+        margin-left: 0;
+        margin-bottom: 85px; }
+        .introduce .section-content .supporters .plan h4 small {
+          font-size: 44px; }
+        .introduce .section-content .supporters .plan h4 strong {
+          font-size: 70px; }
+        .introduce .section-content .supporters .plan h4 b {
+          font-size: 42px; } }
+  @media (min-width: 1200px) {
+    .introduce {
+      background-image: url(/assets/images/introduction/bg_lg_introduce.png); }
+      .introduce .section-content .supporters .plan {
+        padding-top: 50px; }
+      .introduce .section-content .come-true .box {
+        background-image: url(/assets/images/introduction/bg_lg_come_true.jpg); }
+      .introduce .section-content .greeting {
+        padding-top: 120px; }
+        .introduce .section-content .greeting .article-header p {
+          margin-top: 80px;
+          padding-left: 0; }
+        .introduce .section-content .greeting .article-content {
+          margin-top: 110px; } }
+  @media (min-width: 1500px) {
+    .introduce .section-content .come-true {
+      overflow: hidden; }
+      .introduce .section-content .come-true .box {
+        float: left;
+        width: 50%;
+        height: 738px; }
+        .introduce .section-content .come-true .box.one {
+          padding-top: 210px; }
+          .introduce .section-content .come-true .box.one .txt {
+            text-align: left;
+            width: 472px;
+            display: block;
+            margin: 0 auto;
+            padding-left: 70px; }
+            .introduce .section-content .come-true .box.one .txt strong {
+              margin-top: 40px; }
+      .introduce .section-content .come-true .circle-summary {
+        width: 390px;
+        height: 390px;
+        margin-top: -195px;
+        margin-left: -195px; }
+        .introduce .section-content .come-true .circle-summary > div h5 img {
+          width: 273px; }
+        .introduce .section-content .come-true .circle-summary > div p {
+          font-size: 18px;
+          line-height: 30px;
+          margin-top: 35px; } }
+
+/*
+
+
+*/
+
+/*# sourceMappingURL=introduction.css.map */

@@ -676,26 +676,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-                            <ul class="movie-list">
-                                <li>
-                                    <div class="embed-responsive embed-responsive-16by9 movie-content">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sU720iPSSaY"></iframe>
-                                        <div class="hover-box"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="embed-responsive embed-responsive-16by9 movie-content">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qUYKN5hz87A"></iframe>
-                                        <div class="hover-box"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="embed-responsive embed-responsive-16by9 movie-content">
-                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/EifD_HBokiU"></iframe>
-                                        <div class="hover-box"></div>
-                                    </div>
-                                </li>
-                            </ul>
+                            <div class="embed-responsive embed-responsive-16by9 movie-content">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sU720iPSSaY"></iframe>
+                                <div class="hover-box"></div>
+                            </div>
                         </div>
                     </div>
                 </div>

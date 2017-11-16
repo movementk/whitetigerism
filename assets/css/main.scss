@@ -1061,38 +1061,6 @@
     }
     .section-content {
         padding-bottom: 60px;
-        .bx-wrapper {
-            position: relative;
-            padding: 0 15px;
-            margin: 0 auto;
-            .bx-controls {
-                .bx-controls-direction {
-                    a {
-                        position: absolute;
-                        top: 50%;
-                        margin-top: -7px;
-                        font-size: 16px;
-                        color: #aaa;
-                        text-decoration: none;
-                        @include transition();
-                        i {
-                            &:before {
-                                margin: 0;
-                            }
-                        }
-                        &:hover, &:focus {
-                            color: #333;
-                        }
-                        &.bx-prev {
-                            left: -5px;
-                        }
-                        &.bx-next {
-                            right: -5px;
-                        }
-                    }
-                }
-            }
-        }
     }
     @media(min-width: $sm) {
         .section-header {
@@ -1100,26 +1068,6 @@
         }
         .section-content {
             padding-bottom: 110px;
-            .bx-wrapper {
-                padding: 0 60px;
-                margin: 0 auto;
-                .bx-controls {
-                    .bx-controls-direction {
-                        a {
-                            position: absolute;
-                            top: 50%;
-                            margin-top: -13px;
-                            font-size: 25px;
-                            &.bx-prev {
-                                left: 0px;
-                            }
-                            &.bx-next {
-                                right: 0px;
-                            }
-                        }
-                    }
-                }
-            }
         }
     }
     @media(min-width: $lg) {
@@ -1128,33 +1076,6 @@
         }
         .section-content {
             padding-bottom: 110px;
-            .bx-wrapper {
-                width: 100% !important;
-                padding: 0;
-                .bx-viewport {
-                    .movie-list {
-                        li {
-                            
-                        }
-                    }
-                }
-                .bx-controls {
-                    .bx-controls-direction {
-                        a {
-                            position: absolute;
-                            top: 50%;
-                            margin-top: -18px;
-                            font-size: 36px;
-                            &.bx-prev {
-                                left: -60px;
-                            }
-                            &.bx-next {
-                                right: -60px;
-                            }
-                        }
-                    }
-                }
-            }
         }
     }
 }

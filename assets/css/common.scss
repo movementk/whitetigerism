@@ -3,6 +3,7 @@
 @import url('//fonts.googleapis.com/css?family=Teko:400,600,700');
 @import url('//fonts.googleapis.com/css?family=Oswald');
 @import url(//cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('//fonts.googleapis.com/css?family=Titillium+Web');
 
 $xs: "320px";
 $sm: "768px";
@@ -23,6 +24,9 @@ $lg: "1200px";
 }
 @mixin nanumbr() {
     font-family: 'Nanum Barun Gothic', sans-serif;
+}
+@mixin titi() {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 @mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {

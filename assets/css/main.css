@@ -3,6 +3,7 @@
 @import url("//fonts.googleapis.com/css?family=Teko:400,600,700");
 @import url("//fonts.googleapis.com/css?family=Oswald");
 @import url(//cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url("//fonts.googleapis.com/css?family=Titillium+Web");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -1176,67 +1177,16 @@ address {
     padding: 60px 0 30px; }
   .movie .section-content {
     padding-bottom: 60px; }
-    .movie .section-content .bx-wrapper {
-      position: relative;
-      padding: 0 15px;
-      margin: 0 auto; }
-      .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a {
-        position: absolute;
-        top: 50%;
-        margin-top: -7px;
-        font-size: 16px;
-        color: #aaa;
-        text-decoration: none;
-        -webkit-transition-property: all;
-        transition-property: all;
-        -webkit-transition-duration: 0.15s;
-        transition-duration: 0.15s;
-        -webkit-transition-timing-function: linear;
-        transition-timing-function: linear;
-        -webkit-transition-delay: 0s;
-        transition-delay: 0s; }
-        .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a i:before {
-          margin: 0; }
-        .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a:hover, .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a:focus {
-          color: #333; }
-        .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
-          left: -5px; }
-        .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
-          right: -5px; }
   @media (min-width: 768px) {
     .movie .section-header {
       padding: 80px 0 50px; }
     .movie .section-content {
-      padding-bottom: 110px; }
-      .movie .section-content .bx-wrapper {
-        padding: 0 60px;
-        margin: 0 auto; }
-        .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a {
-          position: absolute;
-          top: 50%;
-          margin-top: -13px;
-          font-size: 25px; }
-          .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
-            left: 0px; }
-          .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
-            right: 0px; } }
+      padding-bottom: 110px; } }
   @media (min-width: 1200px) {
     .movie .section-header {
       padding: 110px 0 60px; }
     .movie .section-content {
-      padding-bottom: 110px; }
-      .movie .section-content .bx-wrapper {
-        width: 100% !important;
-        padding: 0; }
-        .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a {
-          position: absolute;
-          top: 50%;
-          margin-top: -18px;
-          font-size: 36px; }
-          .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
-            left: -60px; }
-          .movie .section-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
-            right: -60px; } }
+      padding-bottom: 110px; } }
 
 .sponsors {
   padding: 20px 0;
