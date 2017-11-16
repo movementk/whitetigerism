@@ -1,0 +1,369 @@
+@import 'common';
+
+// 화이트 타이거즈 소개
+.introduce {
+    background-image: url(/assets/images/introduction/bg_xs_introduce.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 26px;
+    .section-content {
+        margin-top: 60px;
+        .supporters {
+            padding-bottom: 30px;
+            .plan {
+                h4 {
+                    display: block;
+                    width: 288px;
+                    text-align: left;
+                    @include titi();
+                    margin-bottom: 60px;
+                    overflow: hidden;
+                    small {
+                        font-size: 44px;
+                        font-weight: 300;
+                        color: rgba(0, 0, 0, .6);
+                    }
+                    strong {
+                        font-size: 48px;
+                        color: #000;
+                        font-weight: bold;
+                    }
+                    b {
+                        font-size: 30px;
+                        color: #0275bb;
+                        float: right;
+                    }
+                }
+                p {
+                    font-size: 13px;
+                    color: #666;
+                    line-height: 24px;
+                    text-align: justify;
+                }
+            }
+            figure {
+                margin-bottom: 110px;
+            }
+        }
+        .come-true {
+            position: relative;
+            .box {
+                height: 410px;
+                background-image: url(/assets/images/introduction/bg_xs_come_true.jpg);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+                &.one {
+                    text-align: center;
+                    padding-top: 165px;
+                    background: none;
+                    background-color: #0275bb;
+                    small {
+                        display: inline-block;
+                        font-size: 24px;
+                        font-weight: 200;
+                        color: #fff;
+                        @include square();
+                        border-bottom: 1px solid #fff;
+                    }
+                    strong {
+                        display: block;
+                        font-size: 60px;
+                        color: #fff;
+                        line-height: 70px;
+                        font-weight: bold;
+                        margin-top: 25px;
+                    }
+                }
+            }
+            .circle-summary {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 280px;
+                height: 280px;
+                display: table;
+                margin-top: -140px;
+                margin-left: -140px;
+                border-radius: 50%;
+                box-shadow: 0px 11px 7px 0px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+                > div {
+                    display: table-cell;
+                    width: 100%;
+                    height: 100%;
+                    vertical-align: middle;
+                    text-align: center;
+                    h5 {
+                        display: inline-block;
+                        img {
+                            width: 190px;
+                        }
+                    }
+                    p {
+                        font-size: 15px;
+                        color: #666;
+                        @include square();
+                        line-height: 24px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        .greeting {
+            padding: 60px 0 120px;
+            .article-header {
+                h6 {
+                    font-size: 24px;
+                    color: #222;
+                    line-height: 30px;
+                    padding: 55px 0 0 10px;
+                    background-image: url(/assets/images/introduction/bg_greeting_header.png);
+                    background-repeat: no-repeat;
+                    background-position: 0 0;
+                    background-size: 149px auto;
+                    @include titi();
+                }
+                p {
+                    font-size: 13px;
+                    color: #777;
+                    line-height: 24px;
+                    margin-top: 45px;
+                    text-align: justify;
+                }
+            }
+            .article-content {
+                margin-top: 45px;
+                figure {
+                    margin: 0 -10px;
+                    .img-responsive {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        background-image: url(/assets/images/introduction/bg_sm_introduce.png);
+        background-size: auto;
+        background-position: 50% 0;
+        .section-content {
+            margin-top: 90px;
+            .supporters {
+                padding-bottom: 75px;
+                .plan {
+                    h4 {
+                        width: 575px;
+                        margin: 0 auto;
+                        margin-bottom: 60px;
+                        small {
+                            font-size: 60px;
+                        }
+                        strong {
+                            font-size: 96px;
+                        }
+                        b {
+                            font-size: 58px;
+                        }
+                    }
+                    p {
+                        font-size: 16px;
+                        line-height: 34px;
+                    }
+                }
+                figure {
+                    margin-bottom: 120px;
+                }
+            }
+            .come-true {
+                .box {
+                    height: 647px;
+                    &.one {
+                        padding-top: 210px;
+                        small {
+                            font-size: 28px;
+                            padding: 0 10px 10px 10px;
+                        }
+                        strong {
+                            font-size: 90px;
+                            line-height: 130px;
+                            margin-top: 35px;
+                        }
+                    }
+                }
+                .circle-summary {
+                    width: 390px;
+                    height: 390px;
+                    margin-top: -195px;
+                    margin-left: -195px;
+                    > div {
+                        h5 {
+                            img {
+                                width: 273px;
+                            }
+                        }
+                        p {
+                            font-size: 18px;
+                            line-height: 30px;
+                            margin-top: 35px;
+                        }
+                    }
+                }
+            }
+            .greeting {
+                padding: 90px 0 180px;
+                .article-header {
+                    h6 {
+                        font-size: 36px;
+                        line-height: 48px;
+                        padding: 76px 0 0 80px;
+                        background-size: 243px auto;
+                    }
+                    p {
+                        font-size: 15px;
+                        line-height: 30px;
+                        margin-top: 60px;
+                        padding-left: 80px;
+                    }
+                }
+                .article-content {
+                    margin-top: 80px;
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .section-content {
+            .supporters {
+                padding-bottom: 200px;
+                .plan {
+                    h4 {
+                        width: 418px;
+                        margin-left: 0;
+                        margin-bottom: 85px;
+                        small {
+                            font-size: 44px;
+                        }
+                        strong {
+                            font-size: 70px;
+                        }
+                        b {
+                            font-size:  42px;
+                        }
+                    }
+                    p {
+                        
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        background-image: url(/assets/images/introduction/bg_lg_introduce.png);
+        .section-content {
+            .supporters {
+                .plan {
+                    padding-top: 50px;
+                }
+            }
+            .come-true {
+                .box {
+                    background-image: url(/assets/images/introduction/bg_lg_come_true.jpg);
+                }
+            }
+            .greeting {
+                padding-top: 120px;
+                .article-header {
+                    p {
+                        margin-top: 80px;
+                        padding-left: 0;
+                    }
+                }
+                .article-content {
+                    margin-top: 110px;
+                }
+            }
+        }
+    }
+    @media(min-width: 1500px) {
+        .section-content {
+            .come-true {
+                overflow: hidden;
+                .box {
+                    float: left;
+                    width: 50%;
+                    height: 738px;
+                    &.one {
+                        padding-top: 210px;
+                        .txt {
+                            text-align: left;
+                            width: 472px;
+                            display: block;
+                            margin: 0 auto;
+                            padding-left: 70px;
+                            strong {
+                                margin-top: 40px;
+                            }
+                        }
+                    }
+                }
+                .circle-summary {
+                    width: 390px;
+                    height: 390px;
+                    margin-top: -195px;
+                    margin-left: -195px;
+                    > div {
+                        h5 {
+                            img {
+                                width: 273px;
+                            }
+                        }
+                        p {
+                            font-size: 18px;
+                            line-height: 30px;
+                            margin-top: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

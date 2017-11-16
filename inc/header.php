@@ -1,4 +1,4 @@
-<!-- Header --->
+<!-- Header -->
 <header id="header">
     <h1 class="logo">
         <a href="/">
@@ -46,7 +46,7 @@
     </nav>
 
 </header>
-<!-- //Header --->
+<!-- //Header -->
 
 <!-- side-nav -->
 <div id="side-nav" role="presentation">

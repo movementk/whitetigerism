@@ -4,7 +4,7 @@
 <body class="introduce"><!-- 폳더별 body 에 Class 추가 -->
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     
-    <!-- content Start --->
+    <!-- content Start -->
     <main id="content" class="sub"> <!-- 페이지 명 클래스 추가 -->
         <!-- page-header -->
         <div class="page-header">
@@ -97,17 +97,18 @@
                                 <input type="text" id="search" class="form-control">
                                 <label for="search" class="sr-only">검색</label>
                             </div>
-                            <buttton type="submit" class="btn btn-search">
+                            <button type="submit" class="btn btn-search">
                                 <i class="icon-search">
                                     <span class="sr-only">검색하기</span>
                                 </i>
-                            </buttton>
+                            </button>
                         </form>
                     </div>
                    
                     <p class="guide-title">테이블</p>
                     <!-- 테이븝 -->
                     <div class="table-wrap">
+                        <!-- 오시는길 테이블 -->
                         <table class="table location">
                             <tbody>
                                 <tr>
@@ -125,8 +126,9 @@
                             </tbody>
                         </table>
                         
-                        <br><br><br>
                         
+                        <p class="guide-title">게시판 리스트</p>
+                        <!-- 게시판 리스트 -->
                         <table class="table list">
                             <tbody>
                                 <tr>
@@ -159,7 +161,120 @@
                                 </tr>
                             </tbody>
                         </table>
+                        
+                        
+                        <p class="guide-title">게시판 쓰기</p>
+                        <form action="#">
+                            <table class="table write">
+                                <tbody>
+                                    <tr>
+                                        <th><label for="u-name">작성자</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="text" id="u-name" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="u-pw">비밀번호</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="password" id="u-pw" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="u-subject">제목</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="text" id="u-subject" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="v-align"><label for="u-content">내용</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <textarea id="u-content" class="form-control"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>첨부파일</th>
+                                        <td class="attach">
+                                            <div class="form-group">
+                                                <input type="file" id="attach" class="form-control">
+                                                <label for="attach">찾아보기</label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        
+                        
                     </div>
+                    
+                    
+                    <p class="guide-title">게시판 뷰</p>
+                    <!-- 게시판 뷰 -->
+                    <article class="borad-view">
+                        <div class="article-header">
+                            <h3 class="title">게시판 제목부분 입니다.</h3>
+                            <ul class="writer-info">
+                                <li>
+                                    <dl>
+                                        <dt>작성자</dt>
+                                        <dd>히딩크</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>작성일</dt>
+                                        <dd>2018.01.012</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="article-content">
+                            <div class="view-content">
+                                <figure>
+                                    <img src="/assets/images/sub/img_view_content.jpg" class="img-responsive" alt="">
+                                </figure>
+                            </div>
+                            <div class="attach-area">
+                                <dl>
+                                    <dt>첨부파일</dt>
+                                    <dd>
+                                        <a href="#">첨부된 파일명.jpg</a>
+                                        <a href="#">첨부된 파일명.jpg</a>
+                                        <a href="#">첨부된 파일명.jpg</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="prev-next-link">
+                            <ul>
+                                <li>
+                                    <dl>
+                                        <dt>이전글</dt>
+                                        <dd>
+                                            <a href="#">게시판 제목</a>
+                                        </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>다음글</dt>
+                                        <dd>
+                                            <a href="#">게시판 제목 게시판 제목 게시판 제목 게시판 제목 게시판 제목 게시판 제목 게시판 제목 게시판 제목 게시판 제목 게시판 제목 게시판 제목</a>
+                                        </dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    
                     
                     <p class="guide-title">버튼 리스트</p>
                     <!-- 버튼 리스트 -->
@@ -325,18 +440,62 @@
                         </ul>
                     </article>
                     
-                    
+                    <p class="guide-title">팀 화이트타이거즈</p>
+                    <article class="team-list">
+                        <ul class="row">
+                            <li class="col-xs-12 col-sm-6 col-md-4">
+                                <a href="#">
+                                    <p class="item">
+                                        <img src="/assets/images/sub/img_team_list.jpg" class="img-responsive" alt="">
+                                    </p>
+                                    <div class="details">
+                                        <p>
+                                            연예인 응원팀 내용 들어갑니다 연예인 응원팀 내용 들어갑니다
+                                        </p>
+                                        <hr>
+                                        <small class="date">2017.11.19</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-12 col-sm-6 col-md-4">
+                                <a href="#">
+                                    <p class="item">
+                                        <img src="/assets/images/sub/img_team_list.jpg" class="img-responsive" alt="">
+                                    </p>
+                                    <div class="details">
+                                        <p>
+                                            연예인 응원팀 내용 들어갑니다 연예인 응원팀 내용 들어갑니다
+                                        </p>
+                                        <hr>
+                                        <small class="date">2017.11.19</small>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-xs-12 col-sm-6 col-md-4">
+                                <a href="#">
+                                    <p class="item">
+                                        <img src="/assets/images/sub/img_team_list.jpg" class="img-responsive" alt="">
+                                    </p>
+                                    <div class="details">
+                                        <p>
+                                            연예인 응원팀 내용 들어갑니다 연예인 응원팀 내용 들어갑니다
+                                        </p>
+                                        <hr>
+                                        <small class="date">2017.11.19</small>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
                     
                     <p class="guide-title"></p>
-                    
-                    
                     
                 </div>
             </div>
         </section>        
         
     </main>
-    <!-- //content End --->
+    <!-- //content End -->
     
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
