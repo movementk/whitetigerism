@@ -17,7 +17,7 @@
                 <div class="container">
                     <ul>
                         <li class="active">
-                            <a href="#">
+                            <a href="/introduction/introduce.php">
                                 <p class="visible-xs s-title">소개</p>
                                 <div class="hidden-xs">
                                     <span class="stick"></span>
@@ -30,7 +30,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/introduction/group.php">
                                 <span class="visible-xs s-title">조직도</span>
                                 <div class="hidden-xs">
                                     <span class="stick"></span>
@@ -56,7 +56,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/introduction/location.php">
                                 <span class="visible-xs s-title">오시는 길</span>
                                 <div class="hidden-xs">
                                     <span class="stick"></span>
@@ -92,7 +92,7 @@
                                         <b>SUPPORTERS</b>
                                     </h4>
                                     <p>
-                                        화이트타이거즈는 평창 동계올림픽의 성공적인 개최와 선수단을<br class="visible-md visible-lg"> 응원하는 열정적인 표현과 평창올림픽의 마스코트인 ‘수호랑’이<br class="visible-md visible-lg"> 백호라는 점에 착안해 탄생한 말로써 전 국민과 하나로 뭉쳐 열정적이고<br class="visible-md visible-lg"> 강력한 참여열기를 이끌어 2018평창동계올림픽 붐조성 및 성공개최를<br class="visible-md visible-lg"> 위해 적극 노력해 나갈 계획이다.
+                                        화이트타이거즈는 평창 동계올림픽의 성공적인 개최와 선수단을<br class="visible-md visible-lg"> 응원하는 열정적인 표현과 평창올림픽의 마스코트인 ‘수호랑’이<br class="visible-md visible-lg"> 백호라는 점에 착안해 탄생한 말로써 전 국민과 하나로 뭉쳐 열정적이고<br class="visible-md visible-lg"> 강력한 참여 열기를 이끌어 2018평창동계올림픽 붐조성 및 성공개최를<br class="visible-md visible-lg"> 위해 적극 노력해 나갈 계획입니다.
                                     </p>
                                 </div>
                             </div>

@@ -27,4 +27,12 @@
         }
         e.preventDefault();
     });
+    
+    // 헤더 네비게이션 관련 이벤트 
+    $(document).on('mouseenter focusin', '#header .quick-menu > ul > .sharing > a', function() {
+        $('.quick-menu .sharing').addClass('active');
+    });
+    $(document).on('mouseleave', '#header .quick-menu > ul > .sharing', function() {
+        $('.quick-menu .sharing').removeClass('active');
+    });
 })(jQuery);

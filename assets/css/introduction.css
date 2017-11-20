@@ -418,30 +418,32 @@ address {
     margin-top: 60px; }
     .introduce .section-content .supporters {
       padding-bottom: 30px; }
-      .introduce .section-content .supporters .plan h4 {
-        display: block;
-        width: 288px;
-        text-align: left;
-        font-family: 'Titillium Web', sans-serif;
-        margin-bottom: 60px;
-        overflow: hidden; }
-        .introduce .section-content .supporters .plan h4 small {
-          font-size: 44px;
-          font-weight: 300;
-          color: rgba(0, 0, 0, 0.6); }
-        .introduce .section-content .supporters .plan h4 strong {
-          font-size: 48px;
-          color: #000;
-          font-weight: bold; }
-        .introduce .section-content .supporters .plan h4 b {
-          font-size: 30px;
-          color: #0275bb;
-          float: right; }
-      .introduce .section-content .supporters .plan p {
-        font-size: 13px;
-        color: #666;
-        line-height: 24px;
-        text-align: justify; }
+      .introduce .section-content .supporters .plan {
+        margin-bottom: 30px; }
+        .introduce .section-content .supporters .plan h4 {
+          display: block;
+          width: 288px;
+          text-align: left;
+          font-family: 'Titillium Web', sans-serif;
+          margin-bottom: 60px;
+          overflow: hidden; }
+          .introduce .section-content .supporters .plan h4 small {
+            font-size: 44px;
+            font-weight: 300;
+            color: rgba(0, 0, 0, 0.6); }
+          .introduce .section-content .supporters .plan h4 strong {
+            font-size: 48px;
+            color: #000;
+            font-weight: bold; }
+          .introduce .section-content .supporters .plan h4 b {
+            font-size: 30px;
+            color: #0275bb;
+            float: right; }
+        .introduce .section-content .supporters .plan p {
+          font-size: 13px;
+          color: #666;
+          line-height: 24px;
+          text-align: justify; }
       .introduce .section-content .supporters figure {
         margin-bottom: 110px; }
     .introduce .section-content .come-true {
@@ -532,19 +534,21 @@ address {
         margin-top: 90px; }
         .introduce .section-content .supporters {
           padding-bottom: 75px; }
-          .introduce .section-content .supporters .plan h4 {
-            width: 575px;
-            margin: 0 auto;
-            margin-bottom: 60px; }
-            .introduce .section-content .supporters .plan h4 small {
-              font-size: 60px; }
-            .introduce .section-content .supporters .plan h4 strong {
-              font-size: 96px; }
-            .introduce .section-content .supporters .plan h4 b {
-              font-size: 58px; }
-          .introduce .section-content .supporters .plan p {
-            font-size: 16px;
-            line-height: 34px; }
+          .introduce .section-content .supporters .plan {
+            margin-bottom: 70px; }
+            .introduce .section-content .supporters .plan h4 {
+              width: 575px;
+              margin: 0 auto;
+              margin-bottom: 60px; }
+              .introduce .section-content .supporters .plan h4 small {
+                font-size: 60px; }
+              .introduce .section-content .supporters .plan h4 strong {
+                font-size: 96px; }
+              .introduce .section-content .supporters .plan h4 b {
+                font-size: 58px; }
+            .introduce .section-content .supporters .plan p {
+              font-size: 16px;
+              line-height: 34px; }
           .introduce .section-content .supporters figure {
             margin-bottom: 120px; }
         .introduce .section-content .come-true .box {
@@ -586,16 +590,18 @@ address {
   @media (min-width: 992px) {
     .introduce .section-content .supporters {
       padding-bottom: 200px; }
-      .introduce .section-content .supporters .plan h4 {
-        width: 418px;
-        margin-left: 0;
-        margin-bottom: 85px; }
-        .introduce .section-content .supporters .plan h4 small {
-          font-size: 44px; }
-        .introduce .section-content .supporters .plan h4 strong {
-          font-size: 70px; }
-        .introduce .section-content .supporters .plan h4 b {
-          font-size: 42px; } }
+      .introduce .section-content .supporters .plan {
+        margin: 0; }
+        .introduce .section-content .supporters .plan h4 {
+          width: 418px;
+          margin-left: 0;
+          margin-bottom: 85px; }
+          .introduce .section-content .supporters .plan h4 small {
+            font-size: 44px; }
+          .introduce .section-content .supporters .plan h4 strong {
+            font-size: 70px; }
+          .introduce .section-content .supporters .plan h4 b {
+            font-size: 42px; } }
   @media (min-width: 1200px) {
     .introduce {
       background-image: url(/assets/images/introduction/bg_lg_introduce.png); }
@@ -639,9 +645,245 @@ address {
           line-height: 30px;
           margin-top: 35px; } }
 
-/*
+.group {
+  background-image: url(/assets/images/introduction/bg_group.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%; }
+  .group .section-content {
+    padding-bottom: 200px;
+    margin-top: 130px; }
+    .group .section-content figure .img-responsive {
+      margin: 0 auto; }
+    @media (min-width: 768px) {
+      .group .section-content {
+        padding-bottom: 140px;
+        margin-top: 90px; } }
+    @media (min-width: 992px) {
+      .group .section-content {
+        margin-top: 50px; } }
 
+.location .section-content {
+  margin-top: 35px;
+  padding-bottom: 140px; }
+  .location .section-content .table-wrap {
+    margin-top: 45px; }
+@media (min-width: 768px) {
+  .location .section-content {
+    margin-top: 50px;
+    padding-bottom: 140px; }
+    .location .section-content .table-wrap {
+      margin-top: 40px; } }
+@media (min-width: 768px) {
+  .location .section-content {
+    padding-bottom: 170px; } }
 
-*/
+.brand .section-content {
+  margin-top: 50px;
+  padding-bottom: 110px; }
+  .brand .section-content article {
+    font-family: 'NanumSquare', sans-serif; }
+    .brand .section-content article ~ article {
+      margin-top: 40px; }
+    .brand .section-content article .article-title {
+      position: relative;
+      font-size: 16px;
+      color: #4e4e4e;
+      font-weight: bold;
+      padding-left: 15px;
+      margin-bottom: 25px; }
+      .brand .section-content article .article-title:before {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 3px;
+        height: 12px;
+        content: "";
+        display: block;
+        background-color: #4e4e4e; }
+    .brand .section-content article .brand-box {
+      padding: 90px 30px;
+      border: 1px solid #f2f2f2;
+      background-image: url(/assets/images/introduction/bg_brand.gif); }
+      .brand .section-content article .brand-box figure .img-responsive {
+        margin: 0 auto; }
+    .brand .section-content article .color-list {
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      font-size: 0;
+      padding-top: 30px; }
+      .brand .section-content article .color-list > li {
+        display: inline-block;
+        width: 50%;
+        text-align: left; }
+        .brand .section-content article .color-list > li ~ li {
+          margin-top: 50px; }
+        .brand .section-content article .color-list > li:nth-of-type(2) {
+          margin-top: 0; }
+        .brand .section-content article .color-list > li .color-square {
+          display: block;
+          width: 110px;
+          height: 96px; }
+          .brand .section-content article .color-list > li .color-square.blue {
+            background-color: #0075bd; }
+          .brand .section-content article .color-list > li .color-square.yellow {
+            background-color: #f6ac18; }
+          .brand .section-content article .color-list > li .color-square.black {
+            background-color: #000; }
+          .brand .section-content article .color-list > li .color-square.green {
+            background-color: #228e39; }
+          .brand .section-content article .color-list > li .color-square.red {
+            background-color: #d72442; }
+        .brand .section-content article .color-list > li .details {
+          margin-top: 22px; }
+          .brand .section-content article .color-list > li .details h5 {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 25px; }
+          .brand .section-content article .color-list > li .details dl {
+            overflow: hidden; }
+            .brand .section-content article .color-list > li .details dl dt {
+              float: left;
+              clear: both;
+              font-size: 13px;
+              color: #666;
+              line-height: 24px; }
+              .brand .section-content article .color-list > li .details dl dt:after {
+                content: ":";
+                margin: 0 5px; }
+            .brand .section-content article .color-list > li .details dl dd {
+              font-size: 13px;
+              color: #666;
+              line-height: 24px; }
+    .brand .section-content article .square-black {
+      padding: 60px 30px;
+      background-color: #000; }
+      .brand .section-content article .square-black ~ .square-black {
+        margin-top: 10px; }
+      .brand .section-content article .square-black figure .img-responsive {
+        margin: 0 auto; }
+      .brand .section-content article .square-black figure figcaption {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 50px;
+        text-align: center; }
+    .brand .section-content article.logo-applications .article-content {
+      padding: 0 5px; }
+      .brand .section-content article.logo-applications .article-content .applications {
+        width: 100%;
+        display: inline-block;
+        padding: 60px 25px;
+        border: 1px solid #f2f2f2;
+        background-image: url(/assets/images/introduction/bg_brand.gif); }
+        .brand .section-content article.logo-applications .article-content .applications figure .img-responsive {
+          margin: 0 auto; }
+        .brand .section-content article.logo-applications .article-content .applications figure figcaption {
+          font-size: 16px;
+          color: #666;
+          margin-top: 35px;
+          text-align: center; }
+        .brand .section-content article.logo-applications .article-content .applications figure.sapce {
+          margin-top: 80px; }
+    .brand .section-content article.logo-blend .article-content {
+      padding: 0 5px; }
+      .brand .section-content article.logo-blend .article-content .applications {
+        width: 100%;
+        display: inline-block;
+        padding: 60px 25px;
+        border: 1px solid #f2f2f2;
+        background-image: url(/assets/images/introduction/bg_brand.gif); }
+        .brand .section-content article.logo-blend .article-content .applications figure .img-responsive {
+          margin: 0 auto; }
+        .brand .section-content article.logo-blend .article-content .applications figure figcaption {
+          font-size: 16px;
+          color: #666;
+          margin-top: 35px;
+          text-align: center; }
+        .brand .section-content article.logo-blend .article-content .applications figure.sapce {
+          margin-top: 80px; }
+  .brand .section-content .btn-area {
+    margin-top: 80px; }
+    .brand .section-content .btn-area p .btn-default {
+      width: 300px;
+      display: block;
+      font-size: 18px;
+      color: #fff;
+      line-height: 55px;
+      margin: 0 auto;
+      border-radius: 0;
+      margin-bottom: 10px; }
+      .brand .section-content .btn-area p .btn-default:last-child {
+        margin-bottom: 0; }
+      .brand .section-content .btn-area p .btn-default.btn-blue {
+        background-color: #0075bd; }
+@media (min-width: 768px) {
+  .brand .section-content {
+    padding-bottom: 135px; }
+    .brand .section-content article ~ article {
+      margin-top: 100px; }
+    .brand .section-content article .article-title {
+      font-size: 20px;
+      margin-bottom: 40px; }
+      .brand .section-content article .article-title:before {
+        top: 3px;
+        width: 4px;
+        height: 15px; }
+    .brand .section-content article .brand-box {
+      padding: 130px 0; }
+    .brand .section-content article .color-list {
+      width: 100%; }
+      .brand .section-content article .color-list > li {
+        margin-top: 0 !important;
+        width: 20%; }
+        .brand .section-content article .color-list > li .details {
+          margin-top: 20px; }
+    .brand .section-content article .square-black ~ .square-black figure figcaption {
+      margin-top: 80px; }
+    .brand .section-content article .square-black figure figcaption {
+      font-size: 16px; }
+    .brand .section-content article.logo-applications .article-content {
+      padding: 0 10px; }
+      .brand .section-content article.logo-applications .article-content .applications {
+        padding: 100px 70px; }
+        .brand .section-content article.logo-applications .article-content .applications figure.sapce {
+          margin-top: 38px; }
+          .brand .section-content article.logo-applications .article-content .applications figure.sapce figcaption {
+            margin-top: 70px; }
+    .brand .section-content article.logo-blend .article-content {
+      padding: 0 10px; }
+      .brand .section-content article.logo-blend .article-content .applications {
+        padding: 100px 70px; }
+        .brand .section-content article.logo-blend .article-content .applications figure {
+          padding-left: 180px; }
+          .brand .section-content article.logo-blend .article-content .applications figure.sapce {
+            padding-left: 0;
+            padding-right: 180px;
+            margin-top: 0; }
+    .brand .section-content .btn-area {
+      text-align: center; }
+      .brand .section-content .btn-area p .btn-default {
+        width: 290px;
+        display: inline-block;
+        line-height: 60px;
+        margin: 0;
+        margin-right: 20px; }
+        .brand .section-content .btn-area p .btn-default:last-child {
+          margin-right: 0; } }
+@media (min-width: 992px) {
+  .brand .section-content article .color-list {
+    width: 884px; }
+  .brand .section-content article.logo-applications .article-content {
+    padding: 0 15px; } }
+@media (min-width: 1200px) {
+  .brand .section-content {
+    margin-top: 70px; }
+    .brand .section-content article ~ article {
+      margin-top: 80px; }
+    .brand .section-content article .article-title {
+      margin-bottom: 30px; } }
 
 /*# sourceMappingURL=introduction.css.map */

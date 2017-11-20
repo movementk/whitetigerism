@@ -1,0 +1,143 @@
+@import 'common';
+
+.wt-news {
+    .page-header {
+        border-bottom: 1px solid #000;
+        .sub-visual {
+            background-image: url(/assets/images/news/bg_news_page_header.jpg);
+        }
+        .lnb-nav {
+            ul {
+                li {
+                    width: 50%;
+                    &:after {
+                        content: "";
+                    }
+                    a {
+                        
+                    }
+                    &.active {
+                        a {
+                            background-color: #000;
+                        }
+                    }
+                    @media(min-width: $sm) {
+                        width: 25%;
+                        &.active {
+                            a {
+                                border-color: rgba(#000, .6);
+                                background-color: rgba(#000, .6);
+                            }
+                        }
+                        &:hover {
+                            a {
+                                border-color: rgba(#000, .6);
+                                background-color: rgba(#000, .6);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// news 공통
+
+.section-content {
+    margin-top: 40px;
+    padding-bottom: 80px;
+    @media(min-width: $sm) {
+        margin-top: 50px;
+        padding-bottom: 120px;
+    }
+    @media(min-width: $lg) {
+        margin-top: 35px;
+        padding-bottom: 150px;
+    }
+}
+
+
+// 게시판 리스트 공통
+.board-list {
+    .section-content {
+        .search-form {
+            margin-bottom: 30px;
+        }
+        .btn-area {
+            margin-top: 45px;
+            @media(min-width: $sm) {
+                text-align: right;
+                margin-top: 30px;
+            }
+        }
+        .paging {
+            margin-top: 40px;
+        }
+    }
+    @media(min-width: $sm) {
+        .section-content {
+            .search-form {
+                margin-bottom: 30px;
+            }
+            .paging {
+                margin-top: 50px;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .section-content {
+            .search-form {
+                margin-bottom: 20px;
+            }
+            .paging {
+                margin-top: 60px;
+            }
+        }
+    }
+}
+
+
+// 게시판 뷰 
+.news-view {
+    .section-content {
+        .board-view {
+            .btn-area {
+                margin-top: 45px;
+                @media(min-width: $sm) {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+.press-view {
+    .section-content {
+        .board-view {
+            .btn-area {
+                margin-top: 45px;
+                @media(min-width: $sm) {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+// 게시판 쓰기
+.board-write {
+    .section-content {
+        .table-wrap {
+            .btn-area {
+                margin-top: 45px;
+                @media(min-width: $sm) {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}

@@ -12,6 +12,7 @@
 			<div class="slider">
 				<div class="intro-item intro-item-1">
 					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
+                    <div class="color-bg"></div>
 					<div class="content">
 						<div class="txt">
                             <div class="vertical-box">
@@ -30,11 +31,31 @@
 				</div>
 				<div class="intro-item intro-item-2">
 					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
-					<!--video id="intro-video-2" class="video" loop muted>
+					<video id="intro-video-2" class="video" loop muted>
 						<source src="/assets/images/main/mv_intro_1.mp4" type="video/mp4">
-				  		<source src="/assets/images/main/mv_intro_1.ogv" type="video/ogv">
-					  	이 브라우저는 동영상을 지원하지 않습니다.
-					</video-->
+						<source src="/assets/images/main/mv_intro_1.ogv" type="video/ogv">
+						이 브라우저는 동영상을 지원하지 않습니다.
+					</video>
+					<div class="color-bg"></div>
+					<div class="content">
+						<div class="txt">
+							<div class="vertical-box">
+								<h2>YOU GO<br>WE GO!</h2>
+								<div class="bar">
+									<span></span>
+									<span></span>
+								</div>
+								<p>
+									화이트타이거즈는 평창올림픽의<br class="visible-xs">
+									성공적인 개최를 기원합니다.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="intro-item intro-item-2">
+					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
+					<div class="color-bg"></div>
 					<div class="content">
 						<div class="txt">
                             <div class="vertical-box">
@@ -53,24 +74,7 @@
 				</div>
 				<div class="intro-item intro-item-2">
 					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
-					<div class="content">
-						<div class="txt">
-                            <div class="vertical-box">
-						        <h2>YOU GO<br>WE GO!</h2>
-                                <div class="bar">
-                                    <span></span>
-                                    <span></span>
-                                </div>
-                                <p>
-                                    화이트타이거즈는 평창올림픽의<br class="visible-xs">
-                                    성공적인 개최를 기원합니다.
-                                </p>
-                            </div>
-						</div>
-					</div>
-				</div>
-				<div class="intro-item intro-item-2">
-					<div class="figure" style="background-image: url(/assets/images/main/img_jumbo_slider01.jpg);"></div>
+					<div class="color-bg"></div>
 					<div class="content">
 						<div class="txt">
                             <div class="vertical-box">
@@ -289,8 +293,14 @@
             </div>
             <div class="section-content">
                 <article>
+                    <div class="hover-event">
+                        <div class="vertical">
+                            <h4>YOU GO WE GO</h4>
+                        </div>
+                    </div>
                     <div class="insta-list">
                         <ul>
+                            <!-- hover-event -->
                             <li>
                                 <div class="item">
                                     <a href="#">
