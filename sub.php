@@ -218,7 +218,7 @@
                     
                     <p class="guide-title">게시판 뷰</p>
                     <!-- 게시판 뷰 -->
-                    <article class="borad-view">
+                    <article class="board-view">
                         <div class="article-header">
                             <h3 class="title">게시판 제목부분 입니다.</h3>
                             <ul class="writer-info">

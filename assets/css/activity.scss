@@ -1,0 +1,358 @@
+@import 'common';
+
+.activity {
+    .page-header {
+        border-bottom: 1px solid #d72442;
+        .sub-visual {
+            background-position: 50% 50%;
+            background-image: url(/assets/images/activity/bg_activity_page_header.jpg);
+        }
+        .lnb-nav {
+            ul {
+                li {
+                    width: 50%;
+                    &:after {
+                        content: "";
+                    }
+                    a {
+                        
+                    }
+                    &.active {
+                        a {
+                            background-color: #d72442;
+                        }
+                    }
+                    @media(min-width: $sm) {
+                        width: 25%;
+                        &.active {
+                            a {
+                                border-color: rgba(#d72442, .8);
+                                background-color: rgba(#d72442, .8);
+                            }
+                        }
+                        &:hover {
+                            a {
+                                border-color: rgba(#d72442, .8);
+                                background-color: rgba(#d72442, .8);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.section-content {
+    margin-top: 60px;
+    padding-bottom: 120px;
+    @media(min-width: $sm) {
+        margin-top: 40px;
+        padding-bottom: 130px;
+    }
+    @media(min-width: $md) {
+        margin-top: 55px;
+        padding-bottom: 185px;
+    }
+}
+
+// 화이트타이거즈 활동목표
+.target {
+    .section-content {
+        article {
+            .purpose {
+                text-align: center;
+                padding: 75px 0 60px;
+                background-image: url(/assets/images/activity/bg_target.jpg);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+                h4 {
+                    font-size: 36px;
+                    color: #fff;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                    @include titi();
+                }
+                hr {
+                    width: 30px;
+                    display: block;
+                    margin: 30px auto 40px;
+                    border-top: 2px solid #d62642;
+                }
+                p {
+                    font-size: 14px;
+                    color: #fff;
+                    line-height: 28px;
+                    @include square();
+                }
+            }
+            .article-content {
+                @include square();
+                margin-top: 70px;
+                > ul {
+                    > li {
+                        & ~ li {
+                            .item {
+                                margin-top: 60px;
+                            }
+                        }
+                        .item {
+                            .figure {
+                                text-align: center;
+                                .img-responsive {
+                                    display: inline-block;
+                                }
+                            }
+                            .details {
+                                text-align: center;
+                                margin-top: 35px;
+                                h5 {
+                                    font-size: 18px;
+                                    line-height: 24px;
+                                    font-weight: bold;
+                                    color: #333;
+                                    margin-bottom: 30px;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    color: #666;
+                                    line-height: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                .purpose {
+                    padding: 95px 0 100px;
+                    h4 {
+                        font-size: 46px;
+                    }
+                    hr {
+                        margin-top: 20px;
+                        margin-bottom: 30px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+                .article-content {
+                    margin-top: 60px;
+                    > ul {
+                        > li {
+                            & ~ li {
+                                .item {
+                                    margin-top: 70px;
+                                }
+                            }
+                            .figure {
+                                line-height: 92px;
+                            }
+                            &:nth-of-type(2n + 1) {
+                                clear: both;
+                            }
+                            &:nth-of-type(2) {
+                                .item {
+                                    margin-top: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                .article-content {
+                    margin-top: 80px;
+                    > ul {
+                        > li {
+                            & ~ li {
+                                .item {
+                                    margin-top: 80px;
+                                }
+                            }
+                            &:nth-of-type(2n + 1) {
+                                clear: none;
+                            }
+                            &:nth-of-type(3n + 1) {
+                                clear: both;
+                            }
+                            &:nth-of-type(3) {
+                                .item {
+                                    margin-top: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 사업
+.business {
+    .section-content {
+        .business-area {
+            > li {
+                & ~ li {
+                    margin-top: 50px;
+                }
+                .details {
+                    max-width: 580px;
+                    margin: 0 auto;
+                    @include square();
+                    .caption {
+                        font-size: 0;
+                        strong {
+                            font-size: 39px;
+                            color: #d72643;
+                            display: inline-block;
+                            margin-right: 20px;
+                            @include oswald();
+                        }
+                        .title {
+                            position: relative;
+                            top: 2px;
+                            display: inline-block;
+                            font-size: 15px;
+                            color: #333;
+                            font-weight: bold;
+                            line-height: 22px;
+                        }
+                    }
+                    .summary {
+                        font-size: 13px;
+                        color: #777;
+                        line-height: 22px;
+                        margin: 20px 0 25px;
+                    }
+                }
+                .item {
+                    max-width: 580px;
+                    margin: 0 auto;
+                    figure {
+                        .img-responsive {
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                > li {
+                    overflow: hidden;
+                    & ~ li {
+                        margin-top: 0;
+                    }
+                    > div {
+                        width: 50%;
+                    }
+                    &:nth-child(odd) {
+                        .details {
+                            float: left;
+                        }
+                        .item {
+                            float: right;
+                        }
+                    }
+                    &:nth-child(even) {
+                        .details {
+                            float: right;
+                        }
+                        .item {
+                            float: left;
+                        }
+                    }
+                    .details {
+                        position: relative;
+                        max-width: 100%;
+                        height: 292px;
+                        .vertical-box {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: table;
+                            width: 100%;
+                            height: 100%;
+                            .txt {
+                                display: table-cell;
+                                height: 100%;
+                                vertical-align: middle;
+                                padding: 0 20px;
+                                .summary {
+                                    padding-left: 55px;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                    .item {
+                        max-width: 100%;
+                        figure {
+                            .img-responsive {
+                                max-height: 292px;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                > li {
+                    .details {
+                        height: 386px;
+                        .vertical-box {
+                            .txt {
+                                strong {
+                                    font-size: 56px;
+                                }
+                                .title {
+                                    top: 0;
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                }
+                                .summary {
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    padding-left: 76px;
+                                    margin-top: 30px;
+                                }
+                            }
+                        }
+                    }
+                    .item {
+                        figure {
+                            .img-responsive {
+                                max-height: 386px;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $lg) {
+                > li {
+                    .details {
+                        height: 469px;
+                        .vertical-box {
+                            .txt {
+                                padding: 0 80px 0 60px;
+                                .summary {
+                                    
+                                }
+                            }
+                        }
+                    }
+                    .item {
+                        max-width: 100%;
+                        figure {
+                            .img-responsive {
+                                max-height: 469px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

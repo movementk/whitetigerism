@@ -503,7 +503,7 @@ label {
         .page-header .lnb-nav ul > li:after {
           position: absolute;
           top: 50%;
-          right: -2px;
+          right: -3px;
           margin-top: -9px;
           font-size: 13px;
           color: #0075bd;
@@ -697,6 +697,8 @@ label {
     padding: 20px 25px;
     border: 0;
     border-bottom: 1px solid #e5e5e5; }
+    .table-wrap .table.location tbody tr td i {
+      margin-right: 10px; }
     @media (min-width: 768px) {
       .table-wrap .table.location tbody tr td {
         font-size: 14px;
@@ -743,6 +745,8 @@ label {
             font-size: 14px; }
         .table-wrap .table.list tbody tr td.date {
           width: 120px; } }
+  .table-wrap .table.list tbody tr:last-child td {
+    border-color: #6f848e; }
 .table-wrap .table.write {
   border-top: 2px solid #000; }
   .table-wrap .table.write tbody tr th {
@@ -870,27 +874,35 @@ label {
 
 .paging {
   text-align: center; }
-  .paging .pagination li a {
-    width: 28px;
-    height: 28px;
-    font-size: 13px;
-    color: #666;
-    padding: 0;
-    line-height: 26px;
-    margin: 0 2px;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 3px;
-    border: 1px solid #e1e1e1; }
-    .paging .pagination li a:hover, .paging .pagination li a:focus {
-      background-color: #fff; }
-  .paging .pagination li.active a {
-    color: #fff;
-    border-color: #252525;
-    background-color: #252525; }
-  .paging .pagination li.next a {
-    margin-left: 15px; }
-  .paging .pagination li.prev a {
-    margin-right: 15px; }
+  .paging .pagination {
+    margin: 0; }
+    .paging .pagination li a {
+      width: 28px;
+      height: 28px;
+      font-size: 13px;
+      color: #666;
+      padding: 0;
+      line-height: 26px;
+      margin: 0 2px;
+      font-family: 'Roboto', sans-serif;
+      border-radius: 3px;
+      border: 1px solid #e1e1e1; }
+      .paging .pagination li a:hover, .paging .pagination li a:focus {
+        background-color: #fff; }
+    .paging .pagination li.active a {
+      color: #fff;
+      border-color: #252525;
+      background-color: #252525; }
+    .paging .pagination li.next a {
+      margin-left: 8px; }
+      @media (min-width: 768px) {
+        .paging .pagination li.next a {
+          margin-left: 15px; } }
+    .paging .pagination li.prev a {
+      margin-right: 8px; }
+      @media (min-width: 768px) {
+        .paging .pagination li.prev a {
+          margin-right: 15px; } }
 
 .celebrity-cheer > ul > li ~ li a {
   margin-top: 40px; }
@@ -1077,93 +1089,93 @@ label {
     .team-list > ul > li a .details small {
       font-size: 14px; } }
 
-.borad-view .article-header {
+.board-view .article-header {
   font-family: 'NanumSquare', sans-serif;
   border-top: 3px solid #000; }
-  .borad-view .article-header .title {
+  .board-view .article-header .title {
     font-size: 14px;
     color: #444;
     padding: 20px 15px;
     background-color: #f5f5f5;
     border-bottom: 1px solid #d6d6d6; }
-  .borad-view .article-header .writer-info {
+  .board-view .article-header .writer-info {
     font-size: 0;
     padding: 20px 15px;
     border-bottom: 1px solid #d6d6d6; }
-    .borad-view .article-header .writer-info > li {
+    .board-view .article-header .writer-info > li {
       display: inline-block; }
-      .borad-view .article-header .writer-info > li dl {
+      .board-view .article-header .writer-info > li dl {
         display: inline-block; }
-        .borad-view .article-header .writer-info > li dl dt {
+        .board-view .article-header .writer-info > li dl dt {
           font-size: 12px;
           color: #666;
           display: inline-block; }
-          .borad-view .article-header .writer-info > li dl dt:after {
+          .board-view .article-header .writer-info > li dl dt:after {
             content: ":";
             margin: 0 5px; }
-        .borad-view .article-header .writer-info > li dl dd {
+        .board-view .article-header .writer-info > li dl dd {
           font-size: 12px;
           color: #666;
           display: inline-block; }
-      .borad-view .article-header .writer-info > li:after {
+      .board-view .article-header .writer-info > li:after {
         font-size: 12px;
         color: #d6d6d6;
         content: "|";
         margin: 0 15px; }
-      .borad-view .article-header .writer-info > li:last-child:after {
+      .board-view .article-header .writer-info > li:last-child:after {
         content: ""; }
-.borad-view .article-content {
+.board-view .article-content {
   font-family: 'NanumSquare', sans-serif;
   border-bottom: 1px solid #6f848e; }
-  .borad-view .article-content .view-content {
+  .board-view .article-content .view-content {
     font-size: 13px;
     line-height: 22px;
     color: #666;
     padding: 60px 10px 80px;
     border-bottom: 1px solid #d6d6d6; }
-    .borad-view .article-content .view-content figure .img-responsive {
+    .board-view .article-content .view-content figure .img-responsive {
       margin: 0 auto; }
-  .borad-view .article-content .attach-area {
+  .board-view .article-content .attach-area {
     padding: 20px 15px; }
-    .borad-view .article-content .attach-area dt {
+    .board-view .article-content .attach-area dt {
       display: inline-block;
       font-size: 12px;
       font-weight: 400;
       color: #666;
       line-height: 26px;
       vertical-align: top; }
-      .borad-view .article-content .attach-area dt:after {
+      .board-view .article-content .attach-area dt:after {
         content: ":";
         margin: 0 10px 0 5px; }
-    .borad-view .article-content .attach-area dd {
+    .board-view .article-content .attach-area dd {
       vertical-align: top;
       font-size: 12px;
       display: inline-block; }
-      .borad-view .article-content .attach-area dd a {
+      .board-view .article-content .attach-area dd a {
         display: block;
         color: #666;
         line-height: 26px; }
-        .borad-view .article-content .attach-area dd a:before {
+        .board-view .article-content .attach-area dd a:before {
           font-family: "fontello";
           content: "\F0F6";
           margin-right: 8px; }
-        .borad-view .article-content .attach-area dd a:after {
+        .board-view .article-content .attach-area dd a:after {
           content: ",";
           margin-left: 3px; }
-        .borad-view .article-content .attach-area dd a:last-child:after {
+        .board-view .article-content .attach-area dd a:last-child:after {
           content: ""; }
-.borad-view .prev-next-link {
+.board-view .prev-next-link {
   margin-top: 45px;
   border-top: 1px solid #6f848e;
   border-bottom: 1px solid #6f848e; }
-  .borad-view .prev-next-link > ul > li {
+  .board-view .prev-next-link > ul > li {
     display: block; }
-    .borad-view .prev-next-link > ul > li:first-child {
+    .board-view .prev-next-link > ul > li:first-child {
       border-bottom: 1px solid #d6d6d6; }
-    .borad-view .prev-next-link > ul > li dl {
+    .board-view .prev-next-link > ul > li dl {
       position: relative;
       padding-left: 100px; }
-      .borad-view .prev-next-link > ul > li dl dt {
+      .board-view .prev-next-link > ul > li dl dt {
         position: absolute;
         top: 0;
         left: 0;
@@ -1175,16 +1187,16 @@ label {
         font-weight: 400;
         text-align: center;
         background-color: #f5f5f5; }
-        .borad-view .prev-next-link > ul > li dl dt:after {
+        .board-view .prev-next-link > ul > li dl dt:after {
           margin-left: 15px;
           content: "\F105";
           font-family: "fontello"; }
-      .borad-view .prev-next-link > ul > li dl dd {
+      .board-view .prev-next-link > ul > li dl dd {
         width: 100%;
         height: 60px;
         padding: 0 25px;
         line-height: 60px; }
-        .borad-view .prev-next-link > ul > li dl dd a {
+        .board-view .prev-next-link > ul > li dl dd a {
           font-size: 13px;
           color: #444;
           display: block;
@@ -1192,38 +1204,38 @@ label {
           white-space: nowrap;
           text-overflow: ellipsis; }
 @media (min-width: 768px) {
-  .borad-view .article-header .title {
+  .board-view .article-header .title {
     font-size: 16px; }
-  .borad-view .article-header .writer-info > li dl dt {
+  .board-view .article-header .writer-info > li dl dt {
     font-size: 14px; }
-  .borad-view .article-header .writer-info > li dl dd {
+  .board-view .article-header .writer-info > li dl dd {
     font-size: 14px; }
-  .borad-view .article-content .view-content {
+  .board-view .article-content .view-content {
     padding: 80px 30px 100px; }
-  .borad-view .article-content .attach-area dt {
+  .board-view .article-content .attach-area dt {
     font-size: 14px;
     line-height: 28px; }
-    .borad-view .article-content .attach-area dt:after {
+    .board-view .article-content .attach-area dt:after {
       content: ":";
       margin: 0 10px 0 10px; }
-  .borad-view .article-content .attach-area dd {
+  .board-view .article-content .attach-area dd {
     font-size: 14px; }
-    .borad-view .article-content .attach-area dd a {
+    .board-view .article-content .attach-area dd a {
       color: #666;
       line-height: 28px; }
-  .borad-view .prev-next-link {
+  .board-view .prev-next-link {
     margin-top: 55px; }
-    .borad-view .prev-next-link > ul > li dl {
+    .board-view .prev-next-link > ul > li dl {
       padding-left: 120px; }
-      .borad-view .prev-next-link > ul > li dl dt {
+      .board-view .prev-next-link > ul > li dl dt {
         width: 120px;
         font-size: 15px; }
-      .borad-view .prev-next-link > ul > li dl dd a {
+      .board-view .prev-next-link > ul > li dl dd a {
         font-size: 14px; } }
 @media (min-width: 1200px) {
-  .borad-view .article-content .view-content {
+  .board-view .article-content .view-content {
     padding: 100px 40px; }
-  .borad-view .prev-next-link {
+  .board-view .prev-next-link {
     margin-top: 70px; } }
 
 /*# sourceMappingURL=sub.css.map */

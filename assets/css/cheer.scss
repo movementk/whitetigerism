@@ -1,0 +1,328 @@
+@import 'common';
+
+.cheer {
+    .page-header {
+        border-bottom: 1px solid #268f3c;
+        .sub-visual {
+            background-image: url(/assets/images/cheer/bg_cheer_page_header.jpg);
+        }
+        .lnb-nav {
+            ul {
+                li {
+                    &.active {
+                        a {
+                            background-color: #268f3c;
+                        }
+                    }
+                    &:after {
+                        color: #268f3c;
+                    }
+                    @media(min-width: $sm) {
+                        &.active {
+                            a {
+                                border-color: rgba(#268f3c, .8);
+                                background-color: rgba(#268f3c, .8);
+                            }
+                        }
+                        &:hover {
+                            a {
+                                border-color: rgba(#268f3c, .8);
+                                background-color: rgba(#268f3c, .8);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 공통
+.section-content {
+    margin-top: 40px;
+    padding-bottom: 80px;
+    @media(min-width: $sm) {
+        margin-top: 50px;
+        padding-bottom: 120px;
+    }
+    @media(min-width: $lg) {
+        margin-top: 35px;
+        padding-bottom: 150px;
+    }
+}
+
+
+// 겔러리 리스트 공통
+.gallery-list {
+    .section-content {
+        .search-form {
+            margin-bottom: 30px;
+        }
+        .paging {
+            margin-top: 40px;
+        }
+        .btn-area {
+            margin-top: 30px;
+        }
+    }
+    @media(min-width: $sm) {
+        .section-content {
+            .search-form {
+                margin-bottom: 30px;
+            }
+            .paging {
+                margin-top: 50px;
+            }
+            .btn-area {
+                text-align: right;
+                margin-top: 15px;
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .section-content {
+            .search-form {
+                margin-bottom: 20px;
+            }
+            .paging {
+                margin-top: 60px;
+            }
+        }
+    }
+}
+
+// 겔러리 뷰
+.gallery-view {
+    .section-content {
+        .board-view {
+            .btn-area {
+                margin-top: 45px;
+                @media(min-width: $sm) {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+// 팀 쓰기
+.gallery-write {
+    .section-content {
+        .table-wrap {
+            .btn-area {
+                margin-top: 45px;
+                @media(min-width: $sm) {
+                    text-align: right;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+// 연예인 응원
+.entertainer-cheer {
+    .btn-area {
+        margin-top: 40px;
+        p {
+            .btn-green {
+                border-radius: 30px;
+                background-color: #268f3c;
+            }
+        }
+        @media(min-width: $sm) {
+            margin-top: 60px;
+            .btn-green {
+                width: 216px !important;
+            }
+        }
+        @media(min-width: $md) {
+            margin-top: 100px;
+        }
+    }
+}
+
+// 스폰서
+.sponsor-list {
+    .section-content {
+        > ul {
+            > li {
+                .sponsor-info {
+                    width: 100%;
+                    margin-bottom: 40px;
+                    text-align: center;
+                    .company-logo {
+                        height: 90px;
+                        line-height: 88px;
+                        text-align: center;
+                        border: 1px solid #ddd;
+                        .img-responsive {
+                            display: inline-block;
+                            max-width: 155px;
+                        }
+                    }
+                    .details {
+                        margin-top: 15px;
+                        font-size: 13px;
+                        color: #555;
+                        font-weight: 600;
+                        @include titi();
+                    }
+                }
+                @media(min-width: $sm) {
+                    .sponsor-info {
+                        margin-bottom: 50px;
+                        .company-logo {
+                            height: 106px;
+                            line-height: 104px;
+                        }
+                        .details {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//celebrity-cheer2
+.celebrity-cheer2 {
+    > ul {
+        > li {
+            & ~ li {
+                a {
+                    margin-top: 40px;
+                }
+            }
+            > a {
+                position: relative;
+                display: block;
+                figure {
+                    position: relative;
+                    .img-responsive {
+                        display: block;
+                        width: 100%;
+                        margin: 0 auto;
+                    }
+                    figcaption {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        font-size: 11px;
+                        color: rgba(#fff, .8);
+                        line-height: 14px;
+                        padding: 20px 20px 20px 60px;
+                        width: 100%;
+                        background-color: rgba(#000, .6);
+                        background-image: url(/assets/images/sub/summary_logo.png);
+                        background-repeat: no-repeat;
+                        background-size: 28px auto;
+                        background-position: 20px 17px;
+                        small {
+                            display: block;
+                            font-size: 10px;
+                        }
+                        .like {
+                            li {
+                                display: inline-block;
+                                margin-right: 10px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                &:nth-of-type(2n + 1) {
+                    clear: both;
+                }
+                &:nth-of-type(2) {
+                    a {
+                        margin-top: 0;
+                    }
+                }
+                a {
+                    figure {
+                        figcaption {
+                            left: 0;
+                            bottom: 0;
+                            font-size: 13px;
+                            line-height: 16px;
+                            padding-left: 70px;
+                            background-size: 32px auto;
+                            small {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                & ~ li {
+                    a {
+                        margin-top: 30px;
+                    }
+                }
+                &:nth-of-type(3) {
+                    a {
+                        margin-top: 0;
+                    }
+                }
+                &:nth-of-type(2n + 1) {
+                    clear: none;
+                }
+                &:nth-of-type(3n + 1) {
+                    clear: both;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

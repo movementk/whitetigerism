@@ -95,7 +95,7 @@ label {
                 &:after {
                     position: absolute;
                     top: 50%;
-                    right: -2px;
+                    right: -3px;
                     margin-top: -9px;
                     font-size: 13px;
                     color: #0075bd;
@@ -355,6 +355,9 @@ label {
                     padding: 20px 25px;
                     border: 0;
                     border-bottom: 1px solid #e5e5e5;
+                    i {
+                        margin-right: 10px;
+                    }
                     @media(min-width: $sm) {
                         font-size: 14px;
                         padding: 25px 10px 25px 50px;
@@ -421,6 +424,11 @@ label {
                         &.date {
                             width: 120px;
                         }
+                    }
+                }
+                &:last-child {
+                    td {
+                        border-color: #6f848e;
                     }
                 }
             }
@@ -598,6 +606,7 @@ label {
 .paging {
     text-align: center;
     .pagination {
+        margin: 0;
         li {
             a {
                 width: 28px;
@@ -623,12 +632,18 @@ label {
             }
             &.next {
                 a {
-                    margin-left: 15px;
+                    margin-left: 8px;
+                    @media(min-width: $sm) {
+                        margin-left: 15px;
+                    }
                 }
             }
             &.prev {
                 a {
-                    margin-right: 15px;
+                    margin-right: 8px;
+                    @media(min-width: $sm) {
+                        margin-right: 15px;
+                    }
                 }
             }
         }
@@ -923,7 +938,7 @@ label {
 }
 
 // 게시판 뷰
-.borad-view {
+.board-view {
     .article-header {
         @include square();
         border-top: 3px solid #000;
@@ -1146,31 +1161,3 @@ label {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
