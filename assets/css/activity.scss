@@ -195,6 +195,7 @@
 // 사업
 .business {
     .section-content {
+        padding-bottom: 0 !important;
         .business-area {
             > li {
                 & ~ li {
@@ -268,7 +269,7 @@
                     .details {
                         position: relative;
                         max-width: 100%;
-                        height: 292px;
+                        height: 219px;
                         .vertical-box {
                             position: absolute;
                             top: 0;
@@ -292,7 +293,7 @@
                         max-width: 100%;
                         figure {
                             .img-responsive {
-                                max-height: 292px;
+                                max-height: 219px;
                             }
                         }
                     }
@@ -301,7 +302,7 @@
             @media(min-width: $md) {
                 > li {
                     .details {
-                        height: 386px;
+                        height: 290px;
                         .vertical-box {
                             .txt {
                                 strong {
@@ -324,7 +325,7 @@
                     .item {
                         figure {
                             .img-responsive {
-                                max-height: 386px;
+                                max-height: 290px;
                             }
                         }
                     }
@@ -333,7 +334,7 @@
             @media(min-width: $lg) {
                 > li {
                     .details {
-                        height: 469px;
+                        height: 351px;
                         .vertical-box {
                             .txt {
                                 padding: 0 80px 0 60px;
@@ -347,7 +348,7 @@
                         max-width: 100%;
                         figure {
                             .img-responsive {
-                                max-height: 469px;
+                                max-height: 351px;
                             }
                         }
                     }

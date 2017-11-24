@@ -38,7 +38,7 @@
                                         WHITETIGERS<br>
                                         BUSINESS
                                     </p>
-                                    <small class="visible-lg">02</small>
+                                    <small class="visible-lg">01</small>
                                 </div>
                             </a>
                         </li>
