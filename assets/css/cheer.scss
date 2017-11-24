@@ -284,7 +284,22 @@
     }
 }
 
-
+// 겔러리 리스트 
+.gallery-list {
+    .section-content {
+        .team-list {
+            li {
+                a {
+                    .details {
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

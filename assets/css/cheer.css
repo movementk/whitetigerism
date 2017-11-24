@@ -569,4 +569,7 @@ address {
   .celebrity-cheer2 > ul > li:nth-of-type(3n + 1) {
     clear: both; } }
 
+.gallery-list .section-content .team-list li a .details p {
+  text-align: center; }
+
 /*# sourceMappingURL=cheer.css.map */

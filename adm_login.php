@@ -28,7 +28,7 @@
                     </form>
                 </div>
             </div>
-        </article>        
+        </article>
     </main>
     <!-- //content End -->
     
