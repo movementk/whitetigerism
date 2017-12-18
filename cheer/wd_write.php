@@ -17,19 +17,6 @@
                 <div class="container">
                     <ul>
                         <li>
-                            <a href="/cheer/team.php">
-                                <p class="visible-xs s-title">팀</p>
-                                <div class="hidden-xs">
-                                    <span class="stick"></span>
-                                    <p>
-                                        WHITETIGERS<br>
-                                        TEAM
-                                    </p>
-                                    <small class="visible-lg">01</small>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
                             <a href="/cheer/entertainer_cheer.php">
                                 <span class="visible-xs s-title">응원</span>
                                 <div class="hidden-xs">
@@ -37,6 +24,19 @@
                                     <p>
                                         WHITETIGERS<br>
                                         CELEBRITY
+                                    </p>
+                                    <small class="visible-lg">01</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/cheer/team.php">
+                                <p class="visible-xs s-title">팀</p>
+                                <div class="hidden-xs">
+                                    <span class="stick"></span>
+                                    <p>
+                                        WHITETIGERS<br>
+                                        TEAM
                                     </p>
                                     <small class="visible-lg">02</small>
                                 </div>

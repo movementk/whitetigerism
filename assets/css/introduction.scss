@@ -13,26 +13,26 @@
             .plan {
                 margin-bottom: 30px;
                 h4 {
-                    display: block;
-                    width: 288px;
-                    text-align: left;
+                    display: inline-block;
                     @include titi();
                     margin-bottom: 60px;
-                    overflow: hidden;
                     small {
+                        text-align: left;
                         font-size: 44px;
                         font-weight: 300;
                         color: rgba(0, 0, 0, .6);
                     }
                     strong {
+                        display: block;
                         font-size: 48px;
                         color: #000;
                         font-weight: bold;
                     }
                     b {
+                        display: block;
                         font-size: 30px;
                         color: #0275bb;
-                        float: right;
+                        text-align: right;
                     }
                 }
                 p {
@@ -155,7 +155,6 @@
                 .plan {
                     margin-bottom: 70px;
                     h4 {
-                        width: 575px;
                         margin: 0 auto;
                         margin-bottom: 60px;
                         small {
@@ -241,7 +240,6 @@
                 .plan {
                     margin: 0;
                     h4 {
-                        width: 418px;
                         margin-left: 0;
                         margin-bottom: 85px;
                         small {

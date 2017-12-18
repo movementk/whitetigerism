@@ -421,24 +421,24 @@ address {
       .introduce .section-content .supporters .plan {
         margin-bottom: 30px; }
         .introduce .section-content .supporters .plan h4 {
-          display: block;
-          width: 288px;
-          text-align: left;
+          display: inline-block;
           font-family: 'Titillium Web', sans-serif;
-          margin-bottom: 60px;
-          overflow: hidden; }
+          margin-bottom: 60px; }
           .introduce .section-content .supporters .plan h4 small {
+            text-align: left;
             font-size: 44px;
             font-weight: 300;
             color: rgba(0, 0, 0, 0.6); }
           .introduce .section-content .supporters .plan h4 strong {
+            display: block;
             font-size: 48px;
             color: #000;
             font-weight: bold; }
           .introduce .section-content .supporters .plan h4 b {
+            display: block;
             font-size: 30px;
             color: #0275bb;
-            float: right; }
+            text-align: right; }
         .introduce .section-content .supporters .plan p {
           font-size: 13px;
           color: #666;
@@ -537,7 +537,6 @@ address {
           .introduce .section-content .supporters .plan {
             margin-bottom: 70px; }
             .introduce .section-content .supporters .plan h4 {
-              width: 575px;
               margin: 0 auto;
               margin-bottom: 60px; }
               .introduce .section-content .supporters .plan h4 small {
@@ -593,7 +592,6 @@ address {
       .introduce .section-content .supporters .plan {
         margin: 0; }
         .introduce .section-content .supporters .plan h4 {
-          width: 418px;
           margin-left: 0;
           margin-bottom: 85px; }
           .introduce .section-content .supporters .plan h4 small {

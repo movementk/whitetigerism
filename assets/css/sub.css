@@ -472,6 +472,24 @@ label {
       font-family: 'Oswald', sans-serif;
       letter-spacing: 5px;
       padding-top: 66px; }
+      .page-header .sub-visual .page-title img {
+        display: inline-block; }
+        .page-header .sub-visual .page-title img.title-sm {
+          display: none; }
+        .page-header .sub-visual .page-title img.title-md {
+          display: none; }
+        @media (min-width: 768px) {
+          .page-header .sub-visual .page-title img.title-xs {
+            display: none; }
+          .page-header .sub-visual .page-title img.title-sm {
+            display: inline-block; }
+          .page-header .sub-visual .page-title img.title-md {
+            display: none; } }
+        @media (min-width: 992px) {
+          .page-header .sub-visual .page-title img.title-sm {
+            display: none; }
+          .page-header .sub-visual .page-title img.title-md {
+            display: inline-block; } }
   .page-header .lnb-nav {
     width: 100%; }
     .page-header .lnb-nav ul {

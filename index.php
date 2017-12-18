@@ -217,14 +217,14 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <!--div class="item">
                 <div class="details">
                     <p>연예인 응원 영상</p>
                     <div class="btn-more">
                         <a href="#" class="btn btn-default" role="button">보러가기</a>
                     </div>
                 </div>
-            </div>
+            </div-->
         </article>
         
         <!-- activity -->

@@ -59,10 +59,10 @@
     <nav id="nav" class="visible-lg">
         <div class="container">
             <ul class="gnb-menu">
-                <li><a href="/introduction/introduce.php">화이트타이거즈 소개</a></li>
+                <li><a href="/cheer/team.php">전국민 응원 챌린지</a></li>
                 <li><a href="/activity/target.php">화이트타이거즈 활동</a></li>
                 <li><a href="/wt_news/news_list.php">화이트타이거즈 소식</a></li>
-                <li><a href="/cheer/team.php">응원활동</a></li>
+                <li><a href="/introduction/introduce.php">화이트타이거즈 소개</a></li>
             </ul>
         </div>
     </nav>
@@ -86,12 +86,12 @@
             <nav class="nav">
                 <ul>
                     <li>
-                        <a href="#">화이트타이거즈 소개</a>
+                        <a href="#">전국민 응원 챌린지</a>
                         <ul>
-                            <li><a href="/introduction/introduce.php">화이트타이거즈 소개<span></span></a></li>
-                            <li><a href="/introduction/group.php">조직<span></span></a></li>
-                            <li><a href="/introduction/brand.php">브랜드 및 저작권<span></span></a></li>
-                            <li><a href="/introduction/location.php">오시는 길<span></span></a></li>
+                            <li><a href="/cheer/entertainer_cheer.php">스타&amp;셀럽 응원<span></span></a></li>
+                            <li><a href="/cheer/team.php">팀 화이트타이거즈<span></span></a></li>
+                            <li><a href="/cheer/wd_list.php">하얀악마<span></span></a></li>
+                            <li><a href="/cheer/sponsor_list.php">후원회/협력도시<span></span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -109,12 +109,12 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">응원활동</a>
+                        <a href="#">화이트타이거즈 소개</a>
                         <ul>
-                            <li><a href="/cheer/team.php">팀 화이트타이거즈<span></span></a></li>
-                            <li><a href="/cheer/entertainer_cheer.php">연예인 응원 <span></span></a></li>
-                            <li><a href="/cheer/wd_list.php">하얀악마<span></span></a></li>
-                            <li><a href="/cheer/sponsor_list.php">후원회/협력도시<span></span></a></li>
+                            <li><a href="/introduction/introduce.php">화이트타이거즈 소개<span></span></a></li>
+                            <li><a href="/introduction/group.php">조직<span></span></a></li>
+                            <li><a href="/introduction/brand.php">브랜드 및 저작권<span></span></a></li>
+                            <li><a href="/introduction/location.php">오시는 길<span></span></a></li>
                         </ul>
                     </li>
                 </ul>

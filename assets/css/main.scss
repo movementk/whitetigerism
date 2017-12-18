@@ -114,7 +114,6 @@
                         font-size: 60px;
                         line-height: 70px;
                         font-weight: bold;
-                        letter-spacing: 5px;
                         @include oswald();
                     }
                     .bar {
@@ -469,23 +468,25 @@
     > .item {
         position: relative;
         float: left;
-        width: 50%;
         height: 180px;
         background-repeat: no-repeat;
-        background-position: 50% 50%;
+        background-position: 50% 25%;
         background-size: cover;
         &:nth-of-type(1) {
+            width: 100%;
             background-image: url(/assets/images/main/entertainer_cheer_img01.jpg);
         }
         &:nth-of-type(2) {
+            width: 50%;
             background-image: url(/assets/images/main/entertainer_cheer_img02.jpg);
         }
         &:nth-of-type(3) {
+            width: 50%;
             background-image: url(/assets/images/main/entertainer_cheer_img03.jpg);
         }
-        &:nth-of-type(4) {
-            background-image: url(/assets/images/main/entertainer_cheer_img04.jpg);
-        }
+//        &:nth-of-type(4) {
+//            background-image: url(/assets/images/main/entertainer_cheer_img04.jpg);
+//        }
         .details {
             position: absolute;
             top: 0;
@@ -522,8 +523,11 @@
         }
     }
     @media(min-width: $sm) {
+        background-color: rgba(0, 0, 0, .7);
         > .item {
             height: 210px;
+            width: 33.33% !important;
+            background-position: 50% 50%;
             .details {
                 height: 210px;
                 background-color: rgba(0, 0, 0, .7);
@@ -544,7 +548,6 @@
     }
     @media(min-width: $md) {
         > .item {
-            width: 25%;
             .details {
                 opacity: 0;
                 background-color: rgba(0, 0, 0, .7);

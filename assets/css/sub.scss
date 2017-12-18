@@ -67,6 +67,37 @@ label {
             @include oswald();
             letter-spacing: 5px;
             padding-top: 66px;
+            img {
+                display: inline-block;
+                &.title-xs {
+                    
+                }
+                &.title-sm {
+                    display: none;
+                }
+                &.title-md {
+                    display: none;
+                }
+                @media(min-width: $sm) {
+                    &.title-xs {
+                        display: none;
+                    }
+                    &.title-sm {
+                        display: inline-block;
+                    }
+                    &.title-md {
+                        display: none;
+                    }
+                }
+                @media(min-width: $md) {
+                    &.title-sm {
+                        display: none;
+                    }
+                    &.title-md {
+                        display: inline-block;
+                    }
+                }
+            }
         }
     }
     .lnb-nav {

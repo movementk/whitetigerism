@@ -596,6 +596,10 @@ body {
         line-height: 18px;
         @include roboto();
         margin-bottom: 30px;
+        a {
+            color: rgba(#fff, .5);
+            text-decoration: none;
+        }
     }
     .country-related {
         width: 260px;
